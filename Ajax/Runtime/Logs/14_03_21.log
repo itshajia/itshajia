@@ -1,0 +1,299 @@
+[ 2014-03-21T11:12:47+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003567s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `is_sys` = 1 ) [ RunTime:0.000290s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz',1395371567) [ RunTime:0.102969s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz',1395371567) [ RunTime:0.030409s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz',1395371567) [ RunTime:0.032464s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz',1395371567) [ RunTime:0.034426s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz',1395371567) [ RunTime:0.029856s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz',1395371567) [ RunTime:0.033960s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz',1395371567) [ RunTime:0.029775s ]
+
+[ 2014-03-21T11:13:47+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.004775s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `is_sys` = 1 ) [ RunTime:0.049954s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz',1395371626) [ RunTime:0.114376s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz',1395371627) [ RunTime:0.082550s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz',1395371627) [ RunTime:0.031615s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz',1395371627) [ RunTime:0.032375s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz',1395371627) [ RunTime:0.041329s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz',1395371627) [ RunTime:0.031895s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz',1395371627) [ RunTime:0.032197s ]
+
+[ 2014-03-21T12:37:20+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-21T12:40:52+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-21T12:41:39+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003461s ]
+NOTIC: [8] Undefined index: id E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 96 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`css_icon`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目3','http://www.itshajia.com','icon-music',3,4,'wz',1395376899,0,0) [ RunTime:0.073440s ]
+
+[ 2014-03-21T12:43:27+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003147s ]
+NOTIC: [8] Undefined index: id E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 96 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`css_icon`,`image`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目4','http://www.itshajia.com','icon-search','http://itshajia.com/Uploads/Weizhan/20140321/1395376992750861.jpg',4,4,'wz',1395377007,0,0) [ RunTime:0.036944s ]
+
+[ 2014-03-21T13:35:17+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] Undefined index: id E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 126 行.
+NOTIC: [8] Undefined variable: column E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 141 行.
+
+[ 2014-03-21T13:36:55+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined index: id E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 126 行.
+NOTIC: [8] Undefined variable: column E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 141 行.
+
+[ 2014-03-21T13:37:38+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003448s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) LIMIT 1   [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: success E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 138 行.
+NOTIC: [8] Undefined variable: msg E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 139 行.
+
+[ 2014-03-21T13:46:43+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003854s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000390s ]
+
+[ 2014-03-21T14:03:09+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003285s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2014-03-21T14:03:14+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003289s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000293s ]
+
+[ 2014-03-21T14:03:29+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003213s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000291s ]
+
+[ 2014-03-21T14:05:00+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj E:\Working\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-21T14:05:14+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003319s ]
+NOTIC: [8] Undefined index: id E:\Working\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 96 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`css_icon`,`image`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目4','http://www.itshajia.com','icon-envelope-alt','http://itshajia.com/Uploads/Weizhan/20140321/1395381910452737.jpg',5,4,'wz',1395381913,0,0) [ RunTime:0.055684s ]
+
+[ 2014-03-21T14:07:19+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003394s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2014-03-21T14:08:08+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003278s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000280s ]
+
+[ 2014-03-21T14:09:26+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003193s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2014-03-21T14:09:29+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003270s ]
+SQL: UPDATE `uio_column` SET `column_name`='自定义栏目5',`linkurl`='http://www.itshajia.com',`css_icon`='icon-envelope-alt',`image`='http://itshajia.com/Uploads/Weizhan/20140321/1395381910452737.jpg',`sort`=5 WHERE ( `column_id` = 17 ) [ RunTime:0.066110s ]
+
+[ 2014-03-21T14:09:35+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003428s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2014-03-21T14:09:39+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003395s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000361s ]
+
+[ 2014-03-21T14:09:43+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003574s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2014-03-21T14:09:52+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003425s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000336s ]
+
+[ 2014-03-21T14:10:00+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003638s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 9 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2014-03-21T14:16:40+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=delColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003233s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 17 ) AND ( `app_name` = 'wz' ) [ RunTime:0.036542s ]
+
+[ 2014-03-21T14:18:25+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003428s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000329s ]
+
+[ 2014-03-21T14:18:29+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003765s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 9 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000351s ]
+
+[ 2014-03-21T14:18:35+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003543s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 10 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000349s ]
+
+[ 2014-03-21T14:18:39+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003251s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 11 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000306s ]
+
+[ 2014-03-21T14:18:42+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003232s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 12 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000302s ]
+
+[ 2014-03-21T14:19:04+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003560s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2014-03-21T14:19:14+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003477s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000301s ]
+
+[ 2014-03-21T14:19:22+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003556s ]
+SQL: UPDATE `uio_column` SET `column_name`='自定义栏目4',`linkurl`='http://www.itshajia.com',`css_icon`='icon-search',`image`='http://itshajia.com/Uploads/Weizhan/20140321/1395382760248121.jpg',`sort`=4 WHERE ( `column_id` = 16 ) [ RunTime:0.060309s ]
+
+[ 2014-03-21T14:19:25+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.004111s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000405s ]
+
+[ 2014-03-21T14:19:32+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003138s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000307s ]
+
+[ 2014-03-21T14:20:25+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003817s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 16 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000335s ]
+
+[ 2014-03-21T15:59:19+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003588s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 8 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000319s ]
+
+[ 2014-03-21T15:59:27+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.002981s ]
+SQL: UPDATE `uio_column` SET `column_name`='首页',`linkurl`='?index.php',`css_icon`='icon-home',`sort`=0 WHERE ( `column_id` = 8 ) [ RunTime:0.129657s ]
+
+[ 2014-03-21T15:59:31+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003318s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 9 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000399s ]
+
+[ 2014-03-21T16:45:15+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.003154s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 9 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000339s ]
+

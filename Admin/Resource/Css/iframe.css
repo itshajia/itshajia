@@ -1,0 +1,263 @@
+/*Iframe Start*/
+
+.container{
+    padding: 20px 10px;
+}
+
+.panel{
+
+}
+
+.con_header{
+    height: 35px; line-height: 35px;
+    border-bottom: 1px solid #dadada;
+    padding-left: 10px;
+}
+
+.con_header a{
+    font-size: 12px;
+    /*margin-right: 15px;*/
+    color: #00C0E4;
+}
+
+.con_title{
+    font-size: 20px; color: #000000;
+}
+
+.con_title2{
+    font-size: 14px; color: #666666;
+    margin-left: 15px;
+}
+
+.con_tool{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.con_tool a{
+    color: #00C0E4;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.con_tool a.active{
+    background: #00C0E4;
+    color: #ffffff;
+}
+
+.con_body{
+    padding: 10px; padding-bottom: 50px;
+    font-size: 13px;
+}
+
+.con_body table{
+    width: 100%;
+}
+
+.con_body table td{
+    padding-left: 10px;
+}
+
+.con_body thead{
+    height: 30px; line-height: 30px;
+    border-bottom: 2px solid #dadada;
+}
+
+.con_body thead tr{
+
+}
+
+.con_body thead tr td{
+    font-weight: bold;
+    color: #666666;
+}
+
+.con_body tbody{
+
+}
+
+.con_body tbody tr{
+    height: 40px; line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.con_body tbody.appList tr{
+    height: 80px; line-height: 80px;
+}
+
+.con_body tbody tr .textarea{
+    line-height: normal;
+    padding: 20px 10px;
+}
+
+.con_body tbody tr:hover{
+    background: #E7F4FA;
+}
+
+.con_body tbody tr.no_line{
+    border: 0px;
+}
+
+.con_body tbody tr.no_line:hover{
+    background: transparent;
+}
+
+.con_body tbody tr td{
+    vertical-align: middle;
+}
+
+.con_body tbody tr td.no_lineH{
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.con_body tbody a{
+    color: #00C0E4;
+    padding:2px 5px;
+}
+
+.con_body table th{
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.con_body table button.uio_btn{
+    background: url(../Images/btn/btn.png) no-repeat;
+    width: 72px; height: 30px;
+    border: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.con_body table thead input.checkbox{
+    float: left;
+    margin-top: 9px; margin-right: 5px;
+}
+
+.con_body table tbody input.checkbox{
+    margin-right: 5px;
+}
+
+.con_body table img.app{
+    margin: 5px; padding: 10px;
+    border: 1px solid #c47222; border-radius: 5px;
+    width: 65px; height: 65px;
+    background: #ffffff;
+}
+
+
+/*Page Start*/
+.page{
+
+}
+
+.page_panel{
+    float: right;
+}
+
+.page_item{
+    float: left; display: inline-block;
+}
+
+.page_info{
+    color: #666666;
+    float: left; display: inline-block;
+    height: 22px; line-height: 22px;
+}
+
+.page_go{
+    margin-left: 15px;
+    float: left; display: inline-block;
+    height: 22px; line-height: 22px;
+}
+
+.page_val{
+    width: 25px; height: 18px; line-height: 18px;
+    border: 1px solid #dadada;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.page_go_btn{
+    width:50px; height: 23px;
+    border: 1px solid #08c2e5;
+    background: #b0e8f3;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.page a{
+    display: inline-block; float:left;
+    width: 20px; height: 20px; line-height: 20px;
+    border: 1px solid #dadada;
+    margin:0px 5px;
+    text-align: center;
+    color: #666666;
+    overflow: hidden;
+    background: transparent;
+}
+
+.page a.dot{
+    border:1px solid transparent;
+    color: #999999;
+    font-size: 12px;
+}
+
+.page a.on{
+    border: 1px solid #08c2e5;
+    color: #037287;
+    background: #b0e8f3;
+}
+
+.page a.prev{
+    text-indent: -999px;
+    background: url(../Images/btn/page_prev.png) center center no-repeat;
+}
+
+.page a.prev.unable{
+    background: url(../Images/btn/page_prev_unable.png) center center no-repeat;
+}
+
+.page a.next{
+    text-indent: -999px;
+    background: url(../Images/btn/page_next.png) center center no-repeat;
+}
+
+.page a.next.unable{
+    background: url(../Images/btn/page_next_unable.png) center center no-repeat;
+}
+
+
+/*form_tool Start*/
+.form_tool{
+    height: 30px; line-height: 30px;
+    background: #e8e8e8; border: 1px solid #dadada;
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+
+.tool_group{
+    margin: 0px 5px;
+}
+
+.tool_group a{
+}
+
+.tool_group button{
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+/*Common Style Start*/
+.btn{
+
+}

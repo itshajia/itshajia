@@ -1,0 +1,52 @@
+[ 2014-03-28T20:14:05+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.051003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075005s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.055003s ]
+NOTIC: [8] Undefined variable: var G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-03-28T20:14:06+08:00 ] 127.0.0.1 /admin.php?&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Behavior\ResourceCheckBehavior.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.014001s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Model\SubmenuResourceModel.class.php 第 47 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `resource_id` FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') )  [ RunTime:0.009000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `mod` = 'Index' ) AND ( `act` = 'login' ) LIMIT 1   [ RunTime:0.002001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.342020s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.014001s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Action\CommonAction.class.php 第 63 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () )  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () ) 
+SQL: SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( `status` = 1 ) ORDER BY `listorder`' at line 1
+ [ SQL语句 ] : SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder` 
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Action\CommonAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.025002s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Model\ShortcutsModel.class.php 第 8 行.
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = null )  [ RunTime:0.017001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = null ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\Web\itshajia\Admin\Runtime\Cache\a56b238a17d5867314da6b5c6add02d2.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.188011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.025001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005001s ]
+

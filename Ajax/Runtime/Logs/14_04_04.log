@@ -1,0 +1,7 @@
+[ 2014-04-04T02:27:46+08:00 ] 127.0.0.1 /ajax.php?m=Reply&a=getReply
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_reply_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `uio_reply_img` WHERE ( `uid` = 4 ) AND ( `img_id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+

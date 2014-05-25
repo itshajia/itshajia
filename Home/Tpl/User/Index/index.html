@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>{$title}</title>
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/base.css" />
+    <link rel="stylesheet" href="__CSS__/u.css" />
+    <script type="text/javascript" src="__JS__/sea.js"></script>
+    <?php $alias = C('WEB_ROOT').'/Resource/alias.html'; ?>
+    <?php include $alias; ?>
+</head>
+<body onscroll="no">
+<div class="u">
+    <include file="Public:header" />
+    <include file="Public:menu" />
+    <div class="frame_box">
+        <div class="frame_panel">
+            <iframe style="" id="display_frame" name="display_frame"  scrolling="auto"  src="<?php echo appUrl('m=Home&a=index'); ?>"
+                    frameborder="0" ></iframe>
+        </div>
+    </div>
+    <include file="Public:footer" />
+</div>
+
+<script>
+    seajs.use('__JS__/u');
+</script>
+</body>
+</html>

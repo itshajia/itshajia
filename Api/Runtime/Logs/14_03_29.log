@@ -1,0 +1,12 @@
+[ 2014-03-29T19:30:59+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.036002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073004s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.092006s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.057003s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.054003s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: signature G:\Web\itshajia\ThinkPHP\Extend\Library\ORG\Util\Wx.class.php 第 141 行.
+NOTIC: [8] Undefined index: timestamp G:\Web\itshajia\ThinkPHP\Extend\Library\ORG\Util\Wx.class.php 第 142 行.
+NOTIC: [8] Undefined index: nonce G:\Web\itshajia\ThinkPHP\Extend\Library\ORG\Util\Wx.class.php 第 143 行.
+

@@ -1,0 +1,49 @@
+[ 2014-03-23T09:02:29+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.065004s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 54 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2014-03-23T09:34:29+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.097005s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 54 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-03-23T09:34:32+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 52 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-03-23T19:12:25+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.804046s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 58 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.063004s ]
+
+[ 2014-03-23T19:12:31+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 58 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-03-23T19:12:34+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 59 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.009001s ]
+
+[ 2014-03-23T19:19:58+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 52 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.013001s ]
+

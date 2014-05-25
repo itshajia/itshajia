@@ -1,0 +1,20 @@
+<!-- headTop Start -->
+<div class="headTop font_yahei">
+    <ul>
+        <li class="topItem" style="width:19%;"><a href="javascript:;" class="goback icon-reply" title="返回" onclick="history.go(-1);"></a></li>
+        <li class="topItem" style="width:60%;">
+            <a href="javascript:;" id="headMenuBtn" class="headMenuBtn" title="顶部导航">顶部导航</a>
+            <div id="headMenu" class="headMenu clearfix hidden">
+                <ul>
+                    <volist name="topList" id="item">
+                        <li class="menuItem">
+                            <a href="{$item.linkurl}">{$item.column_name}</a>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </li>
+        <li class="topItem noLine" style="width:19%;"><a href="javascript:;" class="refresh icon-refresh" title="刷新" onclick="location.reload();"></a></li>
+    </ul>
+</div>
+<!-- headTop End -->

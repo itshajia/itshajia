@@ -1,0 +1,209 @@
+<include file="../../App/Wedding/Tpl/Home/Skin_1/Public/header.html" />
+
+<div id="loading">
+    <div id="heart" class="heart">
+        <img src="__AP__/{$Think.APP_NAME}/Resource/Skin_1/Images/pic/12.gif">
+    </div>
+    <div id="waiting">
+        <span style="text-align:center; color:#F00">
+            幸福加载中...
+        </span>
+    </div>
+</div>
+
+<!-- 内容主题 Start -->
+<div class="container">
+    <div id="wedding" class="wedding hidden">
+        <div class="bg">
+            <img src="__AP__/{$Think.APP_NAME}/Resource/Skin_1/Images/bg/bg.png"/>
+        </div>
+
+        <!--<audio preload="auto" controls loop id="audio">
+            <source src="__AP__/{$Think.APP_NAME}/Music/1.mp3" type="audio/mpeg">
+        </audio>-->
+
+        <div id="photoWin" class="photoWin">
+            <div id="photoBox" class="photoBox">
+                <img src="__AP__/{$Think.APP_NAME}/Resource/Skin_1/Images/bg/photo_bg.png" />
+                <div class="photoFirst">
+                    <div class="photoFirstInner">
+                        <!--<img src="__AP__/{$Think.APP_NAME}/Resource/Skin_1/Images/bg/1398002801847701.jpg" />-->
+                        <img src="{$photoCover.pic_url}" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="touchbox" id="touchbox">
+            <div class="touchcover" id="touchcover"></div>
+            <div class="touchslider">
+                <div id="touchslider-viewport" class="touchslider-viewport" style="">
+                    <div>
+                        <volist name="photoList" id="item">
+                            <div class="touchslider-item">
+                                <img class="img" src="{$item.pic_url}" />
+                            </div>
+                        </volist>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="column_inner">
+                <ul>
+                    <li class="column_item">
+                        <a href="javascript:;" class="" id="invitation">
+                            <span class="icon-envelope"></span>
+                            <span class="column_name">邀请函</span>
+                        </a>
+                    </li>
+                    <li class="column_item">
+                        <a href="javascript:;" class="" id="bless">
+                            <span class="icon-edit"></span>
+                            <span class="column_name">送祝福</span>
+                        </a>
+                    </li>
+                    <li class="column_item">
+                        <a href="javascript:;" class="" id="photo">
+                            <span class="icon-picture"></span>
+                            <span class="column_name">婚纱照</span>
+                        </a>
+                    </li>
+                    <li class="column_item">
+                        <a href="javascript:;" class="" id="story">
+                            <span class="icon-gittip"></span>
+                            <span class="column_name">新人故事</span>
+                        </a>
+                    </li>
+                    <li class="column_item">
+                        <a href="{$mapUrl}" class="" id="navigation">
+                            <span class="icon-map-marker"></span>
+                            <span class="column_name">一件导航</span>
+                        </a>
+                    </li>
+                    <li class="column_item">
+                        <a href="javascript:;" class="" id="shareJoy">
+                            <span class="icon-star"></span>
+                            <span class="column_name">分享喜悦</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--<a href="{$enterUrl}" title="打开电子相册" class="enterColumn"></a>-->
+    </div>
+
+</div>
+<!-- 内容主题 End -->
+
+
+<!-- 模块数据 Start -->
+<script type="text/x-jquery-tmpl" id="invitationTmpl">
+    <div class="mobileAlertWin">
+        <div class="mobileAlertInner">
+            <div class="mobileAlertBox">
+                <div class="mobileAlertHead">
+                    <span class="title">邀请函</span>
+                    <span class="closeMobileWin" style="float:right;"></span>
+                </div>
+                <div class="mobileAlertBody bg_inner">
+                    <div class="mobileAlertBodyInner">{$obj.invitation}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-jquery-tmpl" id="blessTmpl">
+    <div class="mobileAlertWin">
+        <div class="mobileAlertInner">
+            <div class="mobileAlertBox">
+                <div class="mobileAlertHead">
+                    <span class="title">送祝福</span>
+                    <span class="closeMobileWin" style="float:right;"></span>
+                </div>
+                <div class="mobileAlertBody bg_inner">
+                    <div class="mobileAlertBodyInner">
+                        <form id="bless_frm" class="bless_frm">
+                            <input type="hidden" name="wed_id" value="<?php echo $_GET['wed_id']; ?>" />
+                            <input type="hidden" name="uid" value="<?php echo $_GET['uid']; ?>" />
+                            <input type="hidden" name="openid" value="<?php echo $_GET['openid']; ?>" />
+                            <div class="bless_item">
+                                <input id="guest" type="text" name="guest" placeholder="姓名" class="txt" style="width:150px;">
+                            </div>
+                            <div class="bless_item vertical_middle">
+                                您是否愿意参加：
+                                <select id="pnum" name="pnum">
+                                    <option value="非常乐意，有1人参加">非常乐意，有1人参加</option>
+                                    <option value="非常乐意，有2人参加">非常乐意，有2人参加</option>
+                                    <option value="非常乐意，有3人参加">非常乐意，有3人参加</option>
+                                    <option value="非常乐意，有4人参加">非常乐意，有4人参加</option>
+                                    <option value="非常乐意，有5人参加">非常乐意，有5人参加</option>
+                                    <option value="非常乐意，有6人参加">非常乐意，有6人参加</option>
+                                    <option value="非常乐意，有7人参加">非常乐意，有7人参加</option>
+                                    <option value="非常乐意，有8人参加">非常乐意，有8人参加</option>
+                                    <option value="非常乐意，有9人参加">非常乐意，有9人参加</option>
+                                    <option value="抱歉，无法参加">抱歉，无法参加</option>
+                                </select>
+                            </div>
+                            <div class="bless_item">
+                                <textarea name="message" class="txt" id="message" placeholder="请输入您的祝福信息" style="width:90%;height: 100px;"></textarea>
+                            </div>
+                            <div class="bless_item">
+                                <input type="button" id="send_message" value="发送祝福">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-jquery-tmpl" id="storyTmpl">
+    <div class="mobileAlertWin">
+        <div class="mobileAlertInner">
+            <div class="mobileAlertBox">
+                <div class="mobileAlertHead">
+                    <span class="title">新人故事</span>
+                    <span class="closeMobileWin" style="float:right;"></span>
+                </div>
+                <div class="mobileAlertBody bg_inner">
+                    <div class="mobileAlertBodyInner">{$obj.story}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-jquery-tmpl" id="shareJoyTmpl">
+    <div class="mobileAlertWin">
+        <div class="mobileAlertInner">
+            <div class="mobileAlertBox">
+                <div class="mobileAlertHead">
+                    <span class="title">分享喜悦</span>
+                    <span class="closeMobileWin" style="float:right;"></span>
+                </div>
+                <div class="mobileAlertBody bg_inner">
+                    <div class="mobileAlertBodyInner">
+                        <h3>快点将新人的结婚信息，告诉其他朋友吧</h3>
+	                    <div class="bshare-custom icon-medium-plus">
+                            <div class="bsPromo bsPromo2"></div>
+                            <a title="分享到QQ空间" class="bshare-qzone"></a>
+                            <a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+                            <a title="分享到人人网" class="bshare-renren"></a>
+                            <a title="分享到腾讯微博" class="bshare-qqmb"></a>
+                            <span class="BSHARE_COUNT bshare-share-count" style="float: none;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<!-- 模块数据 End -->
+
+<include file="../../App/Wedding/Tpl/Home/Skin_1/Public/footer.html" />

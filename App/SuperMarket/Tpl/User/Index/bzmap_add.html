@@ -1,0 +1,103 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=WdHwL7WN2wUbz6vzPBXx9M0t"></script>
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">地图标注</span>
+            <span class="con_title2 font_yahei">新添加</span>
+
+        </div>
+
+        <div class="con_body">
+            <!-- 地图搜索 Start -->
+            <form action="<?php echo appUrl('m=Index&a=bzmap&view=add'); ?>">
+                <input type="hidden" name="g" value="User" />
+                <input type="hidden" name="m" value="Index" />
+                <input type="hidden" name="a" value="bzmap" />
+                <input type="hidden" name="view" value="add" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <td width="">
+                            城市：<input name="city" class="txt" id="city" value="" style="width:150px;" />
+                            地址：<input name="address" class="txt" id="address" value="" style="width:150px;" />
+                            <button type="submit" class="uio_btn">搜索</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+            <!-- 地图搜索 End -->
+
+            <!-- 地图表单 Start -->
+            <form action="<?php echo appUrl('m=Index&a=bzmap&view=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">地址坐标：</th>
+                        <td width="">
+                            <input name="bzpoint" class="txt" value="{$obj.bzpoint}" id="bzpoint" style="width:350px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">公司名称：</th>
+                        <td>
+                            <input  name="company"  class="txt" style="width:150px;" value="{$obj.company}" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">公司地址：</th>
+                        <td>
+                            <input  name="address"  class="txt" style="width:350px;" value="{$obj.address}" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">电话号码：</th>
+                        <td>
+                            <input name="tel"  class="txt" style="width:150px;" value="{$obj.tel}" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">电话传真：</th>
+                        <td>
+                            <input name="fax"  class="txt" style="width:150px;" value="{$obj.fax}" />
+                        </td>
+                    </tr><tr>
+                        <th scope="row" width="130px;">排序：</th>
+                        <td>
+                            <input name="sort"  class="txt" style="width:150px;" value="{$obj.sort}" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="bz_id" id="bz_id" value="{$obj['bz_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">保存</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+            <!-- 地图表单 End -->
+
+            <!-- 地图容器 Start -->
+            <div id="allmap"></div>
+            <!-- 地图容器 End -->
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<script>
+seajs.use('__APP_U_JS__/bzmap', function( Bzmap ) {
+    Bzmap.init("<?php echo $obj['bzpoint']; ?>");
+});
+</script>
+
+<include file="Public:iframe_footer" />

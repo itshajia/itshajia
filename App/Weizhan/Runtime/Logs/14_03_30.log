@@ -1,0 +1,972 @@
+[ 2014-03-30T08:55:39+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 15 行.
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\fb3e7a3a64a2caca050c3f8246a5534b.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T08:55:42+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T08:55:49+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T08:55:50+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.029002s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T08:55:50+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-03-30T08:55:50+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T08:55:50+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-30T08:55:51+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T08:55:51+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-03-30T08:55:51+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T08:55:51+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T09:48:10+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 15 行.
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\fb3e7a3a64a2caca050c3f8246a5534b.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T09:48:13+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T09:48:29+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T09:50:20+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T10:24:47+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T10:24:48+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T10:37:59+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.010001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T10:38:05+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T10:38:18+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.015001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T11:03:45+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=album
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_album` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `uio_album_cate` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.021001s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 692 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 781 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 799 行.
+SQL: SELECT uio_album.*,uio_album_cate.cate_name FROM `uio_album` JOIN uio_album_cate USING (cate_id) WHERE ( uio_album.uid = '4' ) AND ( uio_album.app_name = 'wz' ) ORDER BY `listorder`,`addtime` desc LIMIT 0,10   [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uio_album` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\6e5038e85c70f84585cfd491619dc9c5.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T11:03:48+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=album&view=pic&album_id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `uio_album_cate` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 696 行.
+SQL: SELECT * FROM `uio_album` WHERE ( `album_id` = 1 ) AND ( `uid` = 4 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_album_pic` WHERE ( `album_id` = 1 ) AND ( `uid` = 4 ) AND ( `app_name` = 'wz' ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\d769d9d952c689fd49193b7fd4c6ea78.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T20:05:46+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 15 行.
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\fb3e7a3a64a2caca050c3f8246a5534b.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.533031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.533031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.034001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.034001s ]
+
+[ 2014-03-30T20:05:50+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=newsCate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_news_cate` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 159 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 0 ) ORDER BY `listorder`  [ RunTime:0.037003s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 2 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 3 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 4 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 5 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 6 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 7 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 8 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\729512253022989100b65af6b98442fa.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-03-30T20:05:57+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=news
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_news` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_news_cate` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 210 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 254 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 273 行.
+SQL: SELECT uio_news.*,uio_news_cate.cate_name FROM `uio_news` JOIN uio_news_cate USING (cate_id) WHERE ( uio_news.uid = '4' ) AND ( uio_news.app_name = 'wz' ) ORDER BY `listorder`,`addtime` desc LIMIT 0,10   [ RunTime:0.039002s ]
+SQL: SELECT * FROM `uio_news` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' )  [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\c29253c443d983a09321be74a8f3d437.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-03-30T20:06:02+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=proCate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_pro_cate` [ RunTime:0.009001s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 310 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 353 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 0 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 6 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 7 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 2 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 8 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 9 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 3 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 10 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 11 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 4 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 12 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 13 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 5 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 14 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 15 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 16 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_pro_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 17 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\d09d00b2ed2ae399f34b559bcf6e85d1.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T20:11:26+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 15 行.
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\fb3e7a3a64a2caca050c3f8246a5534b.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-03-30T20:11:29+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.043003s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T20:11:31+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=preview
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\5e628da7dcc680f1208723d869a630f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T20:11:34+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=newsCate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_news_cate` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 159 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 0 ) ORDER BY `listorder`  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 2 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 3 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 4 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 5 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 6 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 7 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `cate_id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_news_cate` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `parent_id` = 8 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() G:\Web\itshajia\App\Weizhan\Lib\Model\CommonModel.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\729512253022989100b65af6b98442fa.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T20:13:16+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 15 行.
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\fb3e7a3a64a2caca050c3f8246a5534b.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T20:13:19+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-30T20:15:46+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=User&m=Index&a=column
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\App\Weizhan\Lib\Action\User\IndexAction.class.php 第 66 行.
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_sys` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title G:\Web\itshajia\App\Weizhan\Runtime\Cache\User\347f6273df647ffe1f18bfdb6aa384f0.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2014-03-30T23:13:38+08:00 ] 127.0.0.1 /App/Weizhan/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.053003s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid G:\Web\itshajia\App\Weizhan\Lib\Behavior\AppAccessBehavior.class.php 第 16 行.
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = null ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.423024s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-03-30T23:13:53+08:00 ] 127.0.0.1 /App/Weizhan/index.php?g=Home&m=Index&a=index&uid=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.121007s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.164010s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.078004s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `is_home` desc,`sort` asc  [ RunTime:0.082005s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `is_home` = 0 ) AND ( `app_name` = 'wz' ) ORDER BY `sort`  [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: banner G:\Web\itshajia\App\Weizhan\Runtime\Cache\Home\96ca505920c1eb5095e187d00be7d4ce.php 第 50 行.
+NOTIC: [8] Undefined variable: banner G:\Web\itshajia\App\Weizhan\Runtime\Cache\Home\96ca505920c1eb5095e187d00be7d4ce.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.193011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-30T23:13:58+08:00 ] 127.0.0.1 /App/Weizhan/index.php?m=Index&a=about&uid=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.060003s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `is_home` desc,`sort` asc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.120007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2014-03-30T23:14:04+08:00 ] 127.0.0.1 /App/Weizhan/index.php?m=Index&a=pro&uid=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.046002s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `is_home` desc,`sort` asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T23:14:10+08:00 ] 127.0.0.1 /App/Weizhan/index.php?m=Index&a=news&uid=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `is_home` desc,`sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_news` [ RunTime:0.052003s ]
+SQL: SELECT * FROM `uio_news` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) ORDER BY `listorder`,`addtime` desc LIMIT 0,10   [ RunTime:0.175010s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-30T23:14:12+08:00 ] 127.0.0.1 /App/Weizhan/?m=Index&a=newsShow&id=7&uid=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.050002s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `app_ename` = 'Weizhan' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `app_id` = 7 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: AppAccess Behavior ::run [ RunTime:0.084005s ]
+SQL: SHOW COLUMNS FROM `uio_app_wz` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_app_wz` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `is_show` = 1 ) AND ( `app_name` = 'wz' ) ORDER BY `is_home` desc,`sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uio_news` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_news` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) AND ( `news_id` = 7 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+

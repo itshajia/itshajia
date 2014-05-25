@@ -1,0 +1,28 @@
+
+<!-- Footer Start -->
+<div class="footer">
+    <div class="footer_inner">
+        您身边的微信小助手&nbsp;&nbsp;&nbsp;&nbsp;<a class="tel" href="tel:13852757093">Tel：13852757093</a>
+        <span class="fl_r"><a href="javascript:;" id="share" class="share">关注分享</a></span>
+    </div>
+</div>
+
+<div id="coverBg" class="coverBg hidden"></div>
+<div id="shareBox" class="shareBox hidden">
+    <div id="shareBg" class="shareBg"></div>
+    <img src="__APP_H_IMG/pic/share.png" />
+</div>
+<!-- Footer End -->
+
+<script>
+    seajs.use('__APP_H_JS__/Lottery', function( App ) {
+        // 报名
+        App.join();
+    });
+    seajs.use('__APP_H_JS__/Com', function( App ) {
+        // 分享
+        App.share();
+    });
+</script>
+</body>
+</html>

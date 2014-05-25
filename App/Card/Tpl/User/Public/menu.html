@@ -1,0 +1,26 @@
+<!--后台管理左菜单栏 start-->
+<div class="slide_panel font_yahei app">
+    <div class="slide_bar scroll">
+        <div class="slide_group">
+            <volist name="leftMenu" id="menu">
+                <div class="menu_bar <?php if(!$menu['show']){ ?> hidden <?php } ?>" id="{$menu.tag}">
+                    <volist name="menu.sons" id="son" key="j" >
+                        <?php if($son['three_sons']){ ?>
+                        <dl>
+                            <dt>{$son.submenu_name}</dt>
+                            <dd <?php if($j!=1){ ?>style=""<?php } ?>>
+                            <ul>
+                                <volist name="son.three_sons" id="three_son">
+                                    <li><a href="{$three_son.resource_url}" <?php if($three_son['ename']==ACTION_NAME || $three_son['ename']==ACTION_NAME.'_'.$_GET['view']){ ?> class="active" <?php } ?> target="display_frame">{$three_son.resource_name}</a></li>
+                                </volist>
+                            </ul>
+                            </dd>
+                        </dl>
+                        <?php } ?>
+                    </volist>
+                </div>
+            </volist>
+        </div>
+    </div>
+</div>
+<!--后台管理左菜单栏 end-->

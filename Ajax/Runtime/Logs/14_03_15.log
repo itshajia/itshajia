@@ -1,0 +1,89 @@
+[ 2014-03-15T14:35:15+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_album` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_album` WHERE ( `uid` = 4 ) AND ( `album_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pic G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: pic G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 49 行.
+
+[ 2014-03-15T14:40:44+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 1 ) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 57 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 59 行.
+
+[ 2014-03-15T14:40:50+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 1 ) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 57 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 59 行.
+
+[ 2014-03-15T14:46:32+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 12 ) [ RunTime:0.065004s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:46:48+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008001s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 8 ) [ RunTime:0.167009s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:47:22+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008001s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 7 ) [ RunTime:0.084005s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:49:02+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.009000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 11 ) [ RunTime:0.105006s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:49:20+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.042002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042002s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.011001s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 10 ) [ RunTime:0.105006s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:49:29+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 9 ) [ RunTime:0.141008s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-15T14:50:17+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 12 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+

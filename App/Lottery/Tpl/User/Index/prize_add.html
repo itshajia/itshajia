@@ -1,0 +1,55 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">奖项设置</span>
+            <span class="con_title2 font_yahei">新添加</span>
+
+        </div>
+
+        <div class="con_body">
+            <form action="<?php echo appUrl('m=Index&a=prize&view=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <input type="hidden" name="lot_id" value="<?php echo $_GET['lot_id']; ?>" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">奖品名称：</th>
+                        <td width="">
+                            <input name="title" class="txt" id="title" value="{$obj.title}" style="width:250px;" datatype="*"  nullmsg="请填奖品名称！" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">奖品内容：</th>
+                        <td width="">
+                            <input name="content" class="txt" id="content" value="{$obj.content}" style="width:350px;" datatype="*"  nullmsg="请填奖品内容！" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">奖品数量：</th>
+                        <td width="">
+                            <input name="amount" class="txt" id="amount" value="{$obj.amount}" style="width:50px;" datatype="n"  nullmsg="请填奖品数量！" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="prize_id" id="prize_id" value="{$obj['prize_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+<include file="Public:iframe_footer" />

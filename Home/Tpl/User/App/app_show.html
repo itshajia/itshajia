@@ -1,0 +1,101 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">应用商店</span>
+            <span class="con_title2 font_yahei">详情介绍</span>
+
+            <span class="con_tool">
+                <volist name="tools" id="tool">
+                    <a href="{$tool.url}" <?php if($tool['tag']==$_GET['view']){ ?> class="active" <?php } ?>>{$tool.name}</a>
+                </volist>
+            </span>
+        </div>
+
+        <div class="con_body">
+
+            <div class="module">
+                <!-- 应用详情介绍 Start -->
+                <div class="app">
+                    <div class="appHead font_yahei clearfix">
+                        <img class="appPic fl_l" src="<?php echo urlWithWebUrl($obj['thumb']); ?>" />
+                        <div class="appInfoBox fl_l">
+                            <div class="font_b appTitle">{$obj.app_name}</div>
+                            <p class="appIntro">{$obj.introduce}</p>
+                        </div>
+                        <div class="buyBox fl_r">
+                            <?php if( $obj['is_apply'] ){ ?>
+                                <?php if( $obj['unedit']){ ?>
+                                <a href="javascript:;" class="buyNow">无需配置</a>
+                                <?php }else{ ?>
+                                <a href="{$obj.go}" class="buyNow">进入应用</a>
+                                <?php } ?>
+                            <?php }else{ ?>
+                                <?php if( $obj['is_check']===0 ){ ?>
+                                <a href="javascript:;" class="buyed">审核中</a>
+                                <?php }else{ ?>
+                                    <a href="javascript:;" class="buyNow" id="buyNow">
+                                        <?php if( $obj['is_fee'] ){ ?>
+                                        立即申请
+                                        <?php }else{ ?>
+                                        立即添加
+                                        <?php } ?>
+                                    </a>
+                                <?php } ?>
+                            <?php } ?>
+
+                            <a href="javascript:;" class=collect>添加收藏</a>
+                        </div>
+
+                    </div>
+                    <div class="appBody">
+
+                    </div>
+                </div>
+                <!-- 应用详情介绍 End -->
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+<script type="text/x-jquery-tmpl" id="buyTmpl">
+<form id="frm" method="post">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <th>申请年限</th>
+                <td>
+                    <select name="year" style="width:120px;" id="year">
+                        <option value="1">一年</option>
+                        <option value="2">二年</option>
+                        <option value="3">三年</option>
+                        <option value="4">四年</option>
+                        <option value="5">五年</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>合计费用</th>
+                <td><span id="total_fee">{{= price}}</span> 元</td>
+            </tr>
+            <tr>
+                <th>注意事项</th>
+                <td><span class="easyLayerMsg">使用年限将从申请通过日开始计算！</span></td>
+            </tr>
+        </tbody>
+    </table>
+</from>
+</script>
+<script>
+    seajs.use('{$Think.APP_NAME}/Resource/Js/cart', function( Cart ) {
+        Cart.buyNow("<?php echo $obj['app_id']; ?>", "<?php echo $obj['is_fee']; ?>", "<?php echo $obj['price']; ?>");
+    });
+</script>
+<include file="Public:iframe_footer" />

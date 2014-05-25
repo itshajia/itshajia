@@ -1,0 +1,59 @@
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/header.html" />
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/headTop.html" />
+
+<!-- 内容主体 Start -->
+<div class="container font_yahei">
+    <!-- 分类列表 Start -->
+    <div class="catecss" id="showCate">
+        <a href="javascript:;">栏目分类</a>
+    </div>
+    <div id="cate" class="cate" style="display:none;">
+        <div class="cateWin">
+            <div class="cateHead">分类</div>
+            <i id="closeCate" class="closeCate  icon-angle-right"></i>
+            <div class="cateList">
+                <ul class="">
+                    <volist name="levelList" id="item">
+                        <li class="cateItem"><a href="{$item.linkurl}"><?php echo UnlimitTagEcho($item['level']); ?>{$item.cate_name}</a></li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 分类列表 End -->
+    <div class="pro">
+        <ul class="proGroup" id="proGroup">
+            <volist name="list" id="item">
+                <li class="proItem">
+                    <a href="{$item.linkurl}">
+                        <div class="proImgBox">
+                            <img style="width:100px;" class="proImg" src="{$item.pic}" />
+                        </div>
+                        <div class="proHead">{$item.title}</div>
+                    </a>
+                </li>
+            </volist>
+        </ul>
+    </div>
+
+    <div class="pagination clearfix">
+        <div>
+            <a href="javascript:;" id="morePro" class="">获取更多</a>
+        </div>
+
+    </div>
+
+</div>
+<script type="text/x-jquery-tmpl" id="proTmpl">
+<li class="proItem">
+    <a href="{{= linkurl}}">
+        <div class="proImgBox">
+            <img style="width: 100px;" class="proImg" src="{{= src}}" />
+        </div>
+        <div class="proHead">{{= title}}</div>
+    </a>
+</li>
+</script>
+<!-- 内容主体 End -->
+
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/footer.html" />

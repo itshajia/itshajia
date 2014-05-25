@@ -1,0 +1,72 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">产品中心</span>
+            <span class="con_title2 font_yahei">列表</span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Index&a=pro'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" id="submit" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                    <tr>
+                        <td width="5%"><input type="checkbox" class="checkbox" />ID</td>
+                        <td width="30%">标题</td>
+                        <td width="15%">分类</td>
+                        <td width="14%">时间</td>
+                        <td width="10">操作</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="item">
+                        <tr>
+                            <td><input type="checkbox" class="checkbox" name="id[{$item.pro_id}]" />{$item.pro_id}</td>
+                            <td class="no_lineH"><a href="javascript:;" class="">{$item.title}</a></td>
+                            <td class="no_lineH">{$item.cate_name}</td>
+                            <td><?php echo format_time($item['addtime']); ?></td>
+                            <td>
+                                <a class="" href="<?php echo appUrl('m=Index&a=pro&view=add'); ?>&pro_id={$item.pro_id}">编辑</a>
+                                <a class="" onclick="return cfirm();" href="<?php echo appUrl('m=Index&a=pro&view=del'); ?>&pro_id={$item.pro_id}"></span>删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                    <tbody>
+                    <tr class="no_line">
+                        <td colspan="6">
+                            <div class="clearfix">
+                                <button type="button" class="uio_btn" href="<?php echo appUrl('m=Index&a=pro&view=add'); ?>" onclick="localGo(this);">添加</button>
+                                <button type="submit" class="uio_btn">提交更改</button>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!--表单工具栏 Start-->
+                <div class="form_tool" id="form_tool">
+                    <span class="tool_group">
+                        <a href="javascript:;" class="sel_all">全选</a>/<a href="javascript:;" class="sel_cancel">取消</a>
+                    </span>
+                    <span class="tool_group">
+                        选中项：<button name="tool" onclick="return cfirm();" value="delAll">删除</button>
+                    </span>
+
+                </div>
+                <!--表单工具栏 End-->
+            </form>
+            {$pageHtml}
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<include file="Public:iframe_footer" />

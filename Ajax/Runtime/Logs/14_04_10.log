@@ -1,0 +1,66 @@
+[ 2014-04-10T03:26:28+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=getMenu
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_custom_menu` WHERE ( `uid` = 4 ) AND ( `menu_id` = 9 ) LIMIT 1   [ RunTime:0.054003s ]
+
+[ 2014-04-10T03:28:34+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.009001s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('酒店介绍',9,'url','http://itshajia.com',0,0,1397071714,4,0) [ RunTime:0.111006s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 9 ) AND ( `uid` = 4 ) [ RunTime:0.188011s ]
+
+[ 2014-04-10T03:29:12+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.009000s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('客房预定',12,'url','http://itshajia.com',0,0,1397071752,4,0) [ RunTime:0.064004s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.070004s ]
+
+[ 2014-04-10T03:30:07+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.009001s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('会场预定',12,'url','http://itshajia.com',0,0,1397071807,4,0) [ RunTime:0.137008s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.037002s ]
+
+[ 2014-04-10T03:30:47+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.017001s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('餐饮预定',12,'url','http://itshajia.com',0,0,1397071847,4,0) [ RunTime:0.087005s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.050002s ]
+
+[ 2014-04-10T03:31:23+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.014001s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('宴厅预定',12,'url','http://itshajia.com',0,0,1397071883,4,0) [ RunTime:0.112007s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.040002s ]
+
+[ 2014-04-10T03:31:53+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.008001s ]
+SQL: INSERT INTO `uio_custom_menu` (`title`,`parent_id`,`menu_type`,`menu_key`,`listorder`,`menu_id`,`addtime`,`uid`,`child_count`) VALUES ('测试预定',12,'url','http://itshajia.com',0,0,1397071912,4,0) [ RunTime:0.086005s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count+1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.047002s ]
+
+[ 2014-04-10T03:32:01+08:00 ] 127.0.0.1 /ajax.php?m=CustomMenu&a=menuDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `uio_custom_menu` WHERE ( `uid` = 4 ) AND ( `parent_id` = 20 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_custom_menu` WHERE ( `uid` = 4 ) AND ( `menu_id` = 20 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `uio_custom_menu` WHERE ( `uid` = 4 ) AND ( `menu_id` = 20 ) [ RunTime:0.137008s ]
+SQL: SHOW COLUMNS FROM `uio_custom_menu` [ RunTime:0.008001s ]
+SQL: UPDATE `uio_custom_menu` SET `child_count`=child_count-1 WHERE ( `menu_id` = 12 ) AND ( `uid` = 4 ) [ RunTime:0.200011s ]
+

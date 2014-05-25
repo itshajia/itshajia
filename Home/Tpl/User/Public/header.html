@@ -1,0 +1,42 @@
+<!-- 左侧主导航 Start -->
+<div class="nav_panel">
+    <div class="nav" id="nav">
+        <ul>
+            <volist name="menuList" id="menu">
+                <li class="item">
+                    <div class="nav_box">
+                        <a href="javascript:;" class="icon icon_app_{$menu.menu_ename} <?php if( $i==1 ){ ?> active <?php } ?>" title="{$menu.menu_name}" rel="{$menu.menu_ename}"  ></a>
+                    </div>
+                    <div class="nav_tag hidden">{$menu.menu_name}</div>
+                </li>
+            </volist>
+        </ul>
+    </div>
+</div>
+
+<!-- 左侧主导航 End -->
+
+<!-- 用户信息模块 Start -->
+<div class="userInfo_panel font_yahei">
+    <div class="userInfo">
+        <div class="userHead">
+            欢迎 <?php echo $_SESSION['_User']['username']; ?>，<a href="<?php echo appUrl('m=Index&a=logout'); ?>">安全退出</a>
+        </div>
+    </div>
+</div>
+<!-- 用户信息模块 End -->
+
+<!-- 顶部公告 Start -->
+<div class="msg_panel font_yahei">
+    <?php if($subscribeCount){ ?>
+    <div class="msg_item"><a href="javascript:;">今日新增 <span class="orange">{$subscribeCount}</span> 位关注用户</a></div>
+    <?php } ?>
+    <div class="msg_item"><a href="javascript:;">收到 <span class="orange">2</span> 条新消息</a></div>
+    <div class="link_group fl_r clearfix">
+        <a href="javascript:;" class="hidden on" id="appClose" linkurl="<?php echo appUrl('m=App&a=my'); ?>">关闭应用</a>
+        <a href="<?php echo appUrl(''); ?>">首页</a>
+        <a href="javascript:;" onclick="window.history.back()">返回</a>
+        <a href="javascript:;" id="fresh">刷新</a>
+    </div>
+</div>
+<!-- 顶部公告 End -->

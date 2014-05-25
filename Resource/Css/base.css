@@ -1,0 +1,158 @@
+html body{ width:100%; height:100%; font-family: 'Tahoma';}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.hidden{display: none!important;}
+.fl_l{float: left;}
+.fl_r{float: right;}
+.po_ab{position: absolute;}
+.po_re{position: relative;}
+.vertical_middle{vertical-align: middle;}
+
+/*链接*/
+a{text-decoration:none;}
+a.uline:hover{;text-decoration:underline;}
+a.active{}
+
+
+/*字体*/
+.font_yahei{font-family: "微软雅黑";}
+.font_b{font-weight: bold;}
+
+/*颜色*/
+.red{color: red;}
+.green{color: green;}
+.grey{color: #808080;}
+.orange{color: #f22e00}
+.c333{color: #333;}
+.c666{color: #666;}
+.c999{color: #999;}
+
+/*表单元素*/
+input.txt, textarea.txt{
+    background: url(../Images/bg/input_bg.png) repeat-x #ffffff;
+    border: 1px solid #cccccc; border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    color: #333333;
+}
+input.readonly{
+    background: #eeeeee; border: 1px solid #dddddd;
+    cursor: pointer;
+}
+input.txt1{
+    background: #ffffff;
+    border: 0px;
+    padding: 0px 5px; font-size: 12px; color: #333333;
+    height: 100%; vertical-align: middle;
+}
+
+select{
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:3px;box-shadow:0 0 5px rgba(0, 0, 0, 0.2) inset;
+    color:#333;font-size:12px;padding:4px;
+}
+
+input[type='checkbox']{
+    vertical-align: middle;
+}
+
+/*效果*/
+.loading{
+    background-image: url(../Images/bg/loading.gif) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    text-indent: -999px !important;
+    overflow: hidden !important;
+    vertical-align: text-bottom !important;
+}
+
+/*边距*/
+.pad5{padding: 5px;}
+.pad10{padding: 10px;}
+.pl_5{padding-left:5px;}
+.pl_10{padding-left:10px;}
+.ph_10{padding-left: 10px; padding-right: 10px;}
+.pv_10{padding-top: 10px; padding-bottom: 10px;}
+
+
+/*让position:fixed在IE6下可用! */
+.fixed-top /* 头部固定 */{position:fixed;bottom:auto;top:0px;}
+.fixed-bottom /* 底部固定 */{position:fixed;bottom:0px;top:auto;}
+.fixed-left /* 左侧固定 */{position:fixed;right:auto;left:0px;}
+.fixed-right /* 右侧固定 */{position:fixed;right:0px;left:auto;}
+/* 上面的是除了IE6的主流浏览器通用的方法 */
+* html,* html body /* 修正IE6振动bug */{background-image:url(about:blank);background-attachment:fixed;}
+* html .fixed-top /* IE6 头部固定 */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+* html .fixed-right /* IE6 右侧固定 */ {position:absolute;right:auto;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));}
+* html .fixed-bottom /* IE6 底部固定  */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+* html .fixed-left /* IE6 左侧固定 */{position:absolute;right:auto;left:expression(eval(document.documentElement.scrollLeft));}
+
+
+/*Icon*/
+.icon{
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+}
+.icon.active{
+    border: 5px solid #00c0e4; margin: -5px;
+}
+.icon_app_user{
+    background-image: url(../Images/icon/icon_app_user.png)!important;
+}
+.icon_app_site{
+    background-image: url(../Images/icon/icon_app_site.png)!important;
+}
+.icon_app_app{
+    background-image: url(../Images/icon/icon_app_app.png)!important;
+}
+.icon_app_info{
+    background-image: url(../Images/icon/icon_app_info.png)!important;
+}
+
+/*Msg*/
+.input_msg{
+    margin-left: 5px; background: #fff8d9;
+    border: 1px solid #febe8f; color: #f60;
+    padding: 3px 8px;
+}
+.null_msg{
+    text-align: center; padding: 20px 10px;
+    color: #666666;
+}
+
+.edui-default{
+    /*left: -1px!important;*/
+}
+

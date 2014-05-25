@@ -1,0 +1,66 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">宾客祝福</span>
+            <span class="con_title2 font_yahei">列表</span>
+
+        </div>
+
+        <div class="con_body">
+            <form action="<?php echo appUrl('m=Index&a=bless&view='); ?><?php echo $_GET['view']; ?>" method="post" id="frm" name="frm">
+                <input type="hidden" id="submit" name="submit" value="1" />
+                <input type="hidden" name="wed_id" value="<?php echo $_GET['wed_id']; ?>" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                    <tr>
+                        <td width="5%"><input type="checkbox" class="checkbox" />ID</td>
+                        <td width="10%">姓名</td>
+                        <td width="50%">祝福内容</td>
+                        <td width="15%">添加时间</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="item">
+                        <tr>
+                            <td><input type="checkbox" class="checkbox" name="id[{$item.bless_id}]" />{$item.bless_id}</td>
+                            <td class="no_lineH"><a href="javascript:;" class="">{$item.guest}</a></td>
+                            <td class="no_lineH">{$item.message}</td>
+                            <td><?php echo date('Y-m-d H:m:s', $item['addtime']) ?></td>
+
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+                <!--表单工具栏 Start-->
+                <div class="form_tool" id="form_tool">
+                    <span class="tool_group">
+                        <a href="javascript:;" class="sel_all">全选</a>/<a href="javascript:;" class="sel_cancel">取消</a>
+                    </span>
+                    <span class="tool_group">
+                        选中项：
+                        <?php if( $_GET['view']!='pass'){?>
+                        <button name="tool" onclick="return cfirm();" value="passAll">通过</button>
+                        <?php } ?>
+
+                        <?php if( $_GET['view']!='refuse'){?>
+                        <button name="tool" onclick="return cfirm();" value="refuseAll">拒绝</button>
+                        <?php } ?>
+
+                    </span>
+
+                </div>
+                <!--表单工具栏 End-->
+            </form>
+            {$pageHtml}
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+<include file="Public:iframe_footer" />

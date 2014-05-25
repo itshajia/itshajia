@@ -1,0 +1,31 @@
+.clearfix:before,.clearfix:after{  content: '\0020';  display: block;  overflow: hidden;  visibility: hidden;  width: 0;  height: 0;}
+.clearfix:after{clear: both;}
+.clearfix {zoom: 1;}
+.hidden{display:none;}
+
+.superSlider{
+    border:1px solid #dadada; margin: 10px; padding:10px; margin-bottom:0px;
+}
+
+.superSliderGroup{
+    margin:10px; border:1px solid #dadada; padding:5px; background: #f8f8f8;
+    position:relative;
+}
+
+.superSliderGroup.loading{
+    background: url(./load.gif) center center #ffffff no-repeat;
+}
+
+.groupPage{
+    position:absolute; height:30px; line-height:30px; /*background: rgba(0,0,0,0.3);*/
+    bottom:0px; text-align: center;
+}
+
+.groupPage a{
+    background: #B7B7B7; width:9px; height:0px; padding-top:9px; border-radius: 50%; display: inline-block;
+    margin: 0 2px; overflow: hidden;
+}
+
+.groupPage a.on{
+    background: #FF4400;
+}

@@ -1,0 +1,38 @@
+# head .htaccess
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{HTTP_HOST} ^blog.itshajia.com$
+    RewriteCond %{REQUEST_URI} !^(\/?)Blog(\/?)(.*)$
+    RewriteCond %{REQUEST_URI} !^(.*)index.php(.*)$
+    RewriteRule ^(\/)?(index.php)?(\/)?(.*)$ Blog/index.php/$4 [L]
+    RewriteCond %{HTTP_HOST} ^blog.itshajia.com$
+    RewriteCond %{REQUEST_URI} ^(\/)?(index.php)?$
+    RewriteRule ^(.*)$ Blog/index.php/ [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{HTTP_HOST} ^u.itshajia.com$
+    RewriteCond %{REQUEST_URI} !^(\/?)U(\/?)(.*)$
+    RewriteCond %{REQUEST_URI} !^(.*)index.php(.*)$
+    RewriteRule ^(\/)?(index.php)?(\/)?(.*)$ U/index.php/$4 [L]
+    RewriteCond %{HTTP_HOST} ^u.itshajia.com$
+    RewriteCond %{REQUEST_URI} ^(\/)?(index.php)?$
+    RewriteRule ^(.*)$ U/index.php/ [L]
+
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_URI} !^\/$
+    #RewriteCond %{REQUEST_URI} !^(.*)App(\/?)(.*)index.php(\/?)(.*)$
+    #RewriteRule ^(\/?)([^\/]*)(\/index.php)?(\/?)(.*)$ App/$2/index.php/$5 [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php/ [L]
+
+
+</IfModule>

@@ -1,0 +1,22 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">微超市配置</span>
+            <span class="con_title2 font_yahei">效果预览</span>
+
+        </div>
+
+        <div class="con_body">
+            <div class="preview_box">
+                <iframe  src="<?php echo C('WEB_URL'); ?>/App/Supermarket/index.php?g=Home&m=Index&a=index&uid=<?php echo $_SESSION['_User']['uid']; ?>" height="420" width="330" frameborder="0" ></iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+<include file="Public:iframe_footer" />

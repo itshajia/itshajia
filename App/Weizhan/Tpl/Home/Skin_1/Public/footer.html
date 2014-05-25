@@ -1,0 +1,34 @@
+
+<!-- Footer Start -->
+<div class="footer">
+    <div class="footer_inner">
+        您身边的微信小助手&nbsp;&nbsp;&nbsp;&nbsp;<a class="tel" href="tel:13852757093">Tel：13852757093</a>
+        <span class="fl_r"><a href="javascript:;" id="share" class="share">关注分享</a></span>
+    </div>
+</div>
+
+<div id="coverBg" class="coverBg hidden"></div>
+<div id="shareBox" class="shareBox hidden">
+    <div id="shareBg" class="shareBg"></div>
+    <img src="__APP_H_IMG/pic/share.png" />
+</div>
+<!-- Footer End -->
+
+<script>
+    seajs.use('__APP_H_JS__/Weizhan', function( App ) {
+        // 顶部导航下拉
+        App.headMenu();
+        // 分类列表
+        App.cateList();
+        // 新闻列表异步获取
+        App.moreNews("<?php echo $_GET['uid']; ?>");
+        // 产品列表异步获取
+        App.morePro("<?php echo $_GET['uid']; ?>");
+    });
+    seajs.use('__APP_H_JS__/Com', function( App ) {
+        // 分享
+        App.share();
+    });
+</script>
+</body>
+</html>

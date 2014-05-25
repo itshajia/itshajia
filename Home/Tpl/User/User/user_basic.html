@@ -1,0 +1,53 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">资料管理</span>
+            <span class="con_title2 font_yahei">基本设置</span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=User&a=basic'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">用户名称：</th>
+                        <td width="">{$obj.username}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">Email：</th>
+                        <td>
+                            <input name="email" id="email" class="txt" value="{$obj.email}" datatype="e" nullmsg="请填写Email！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">真实姓名：</th>
+                        <td>
+                            <input name="truename" id="truename" class="txt" value="{$obj.truename}" datatype="*" nullmsg="请填写真实姓名！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="uid" id="uid" value="{$obj['uid']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">保存</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<include file="Public:iframe_footer" />

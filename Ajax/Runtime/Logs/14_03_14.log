@@ -1,0 +1,283 @@
+[ 2014-03-14T14:47:06+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2014-03-14T15:24:39+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+
+[ 2014-03-14T15:24:40+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-03-14T15:24:41+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+
+[ 2014-03-14T15:24:41+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+
+[ 2014-03-14T15:24:42+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+
+[ 2014-03-14T15:24:42+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-03-14T15:30:36+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+
+[ 2014-03-14T15:30:37+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+
+[ 2014-03-14T15:36:03+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-03-14T15:36:04+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+
+[ 2014-03-14T15:36:04+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+
+[ 2014-03-14T15:53:09+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-03-14T15:57:42+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+
+[ 2014-03-14T16:02:53+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-03-14T16:02:55+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+
+[ 2014-03-14T16:02:57+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-03-14T16:02:58+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+
+[ 2014-03-14T16:03:25+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-03-14T16:03:44+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-03-14T16:03:46+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2014-03-14T16:04:04+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2014-03-14T16:04:06+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+
+[ 2014-03-14T16:04:07+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-03-14T16:04:07+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+
+[ 2014-03-14T16:04:08+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+
+[ 2014-03-14T16:04:08+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+
+[ 2014-03-14T16:04:08+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+
+[ 2014-03-14T16:04:09+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-03-14T16:04:09+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+
+[ 2014-03-14T16:40:14+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.006548s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 3 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786397657697.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786397127636.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 3 ) [ RunTime:0.057643s ]
+
+[ 2014-03-14T16:41:42+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.004831s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 3 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786397657697.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786397127636.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 3 ) [ RunTime:0.044176s ]
+
+[ 2014-03-14T16:44:12+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003358s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786630568277.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786630100345.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) [ RunTime:0.039118s ]
+
+[ 2014-03-14T16:45:13+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.004246s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786630568277.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786630100345.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) [ RunTime:0.055892s ]
+
+[ 2014-03-14T16:45:24+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003611s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786630568277.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786630100345.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 4 ) [ RunTime:0.049364s ]
+
+[ 2014-03-14T16:47:59+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.004322s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786860136750.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786860585232.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) [ RunTime:0.041822s ]
+
+[ 2014-03-14T16:48:02+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003151s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786860136750.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786860585232.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) [ RunTime:0.050699s ]
+
+[ 2014-03-14T16:49:25+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003364s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786860136750.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786860585232.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) [ RunTime:0.052107s ]
+
+[ 2014-03-14T16:49:31+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.004877s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394786860136750.jpg,http://itshajia.com/Uploads/Weizhan/20140314/1394786860585232.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 5 ) [ RunTime:0.033056s ]
+
+[ 2014-03-14T16:50:44+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003132s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394787022135515.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) [ RunTime:0.041238s ]
+
+[ 2014-03-14T16:51:00+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.005056s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: UPDATE `uio_pro` SET `pic`='' WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) [ RunTime:0.046776s ]
+
+[ 2014-03-14T16:51:25+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003233s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) LIMIT 1   [ RunTime:0.000312s ]
+
+[ 2014-03-14T16:51:34+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.003246s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: UPDATE `uio_pro` SET `pic`='' WHERE ( `uid` = 4 ) AND ( `pro_id` = 6 ) [ RunTime:0.052898s ]
+
+[ 2014-03-14T20:50:01+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `uio_pro` SET `pic`='http://itshajia.com/Uploads/Weizhan/20140314/1394787153989731.jpg' WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) [ RunTime:0.078004s ]
+
+[ 2014-03-14T20:50:08+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `uio_pro` SET `pic`='' WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) [ RunTime:0.119007s ]
+
+[ 2014-03-14T21:10:34+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-03-14T21:12:34+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_pro` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `uio_pro` WHERE ( `uid` = 4 ) AND ( `pro_id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+

@@ -1,0 +1,79 @@
+.easyLayer{
+    position: fixed; top: 0px; left: 0px; right:0px; bottom: 0px;
+}
+.easyLayerInner{
+    text-align: center;
+}
+.easyLayerBox{
+    margin-left: auto; margin-right: auto; /*margin-top: 50px;*/
+    position: relative;
+    padding: 2px 0 0 2px; text-align: left;
+}
+
+.easyLayerShadow{
+    position: absolute; top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    *border: 1px solid #dadada;
+}
+.easyLayerHead{
+    height: 26px; line-height: 26px;
+    border-bottom: 1px solid #c6c6c6;
+    background: url(./head_bg.png) repeat-x;
+    position: relative; cursor: move;
+}
+.easyLayerTitle{
+    font-size: 12px; font-weight: bold; padding-left: 5px; line-height: 26px;
+}
+.easyLayerClose{
+    position: absolute; top: 3px; right: 5px;
+    display: inline-block; width: 20px; height: 20px;
+    background: url("./icons-all.gif") no-repeat 0 -59px;
+}
+.easyLayerClose:hover{
+    background: url("./icons-all.gif") no-repeat 0 -89px;
+}
+
+.easyLayerBody{
+    /*min-height: 150px;*/
+}
+.easyLayerBody.scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.easyBodyContainer{
+    margin: 10px; padding: 10px; border: 1px solid #dadada;
+}
+.easyBodyContainer.lmsg{
+    border:0px;
+}
+.easyLayerFoot{
+    height: 40px;
+}
+.easyLayerFootInner{
+    position: absolute; right: 0px;
+}
+.easyLayerButton{
+    display: inline-block; float: left;
+    background: url("./icons-all.gif") no-repeat;
+    height: 24px; width: 96px; font-size: 12px; line-height: 24px; margin-right: 10px;
+    text-align: center;
+    color: #333333; text-decoration: none;
+}
+.easyLayerButton:hover{
+    background: url("./icons-all.gif") no-repeat 0 -30px;
+}
+.easyLayerOK{
+
+}
+.easyLayerCancel{
+
+}
+.easyLayerMsg{
+    color: #f22e00;
+}

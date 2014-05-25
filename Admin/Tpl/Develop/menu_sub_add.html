@@ -1,0 +1,82 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">菜单管理</span>
+            <span class="con_title2 font_b">新添加</span>
+
+            <span class="con_tool">
+                <volist name="tools" id="tool">
+                    <a href="{$tool.url}" <?php if($tool['tag']==$_GET['view']){ ?> class="active" <?php } ?>>{$tool.name}</a>
+                </volist>
+
+            </span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Develop&a=menu&view=sub&op=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">父级菜单：</th>
+                        <td width="">
+                            <?php if($pObj && !$_GET['isSelect']){ ?>
+                            {$pObj['menu_name']}
+                            <input type="hidden" name="menu_id" value="{$pObj['menu_id']}" />
+                            <?php } else { ?>
+                            <select name="menu_id" id="menu_id" style="width:160px;" datatype="*" nullmsg="请选择父级菜单！">
+                                <option value="">--请选择父级菜单--</option>
+                                <volist name="menuListO" id="menu">
+                                    <option value="{$menu.menu_id}" <?php if($menu['menu_id']==$obj['menu_id']){ ?> selected="selected"<?php } ?>>{$menu.menu_name}</option>
+                                </volist>
+                            </select>
+                            <?php } ?>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">子菜单名称：</th>
+                        <td width="">
+                            <input name="submenu_name" class="txt" id="submenu_name" value="{$obj.submenu_name}" datatype="*" nullmsg="请填写子菜单名称！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">排序：</th>
+                        <td width="">
+                            <input name="listorder" class="txt" id="listorder" value="{$obj.listorder}" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">是否显示：</th>
+                        <td>
+                            <input type="checkbox" name="status" <?php if($obj['status']==1){ ?> checked="checked" <?php } ?> />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="submenu_id" id="submenu_id" value="{$obj['submenu_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+
+
+<include file="Public:iframe_footer" />

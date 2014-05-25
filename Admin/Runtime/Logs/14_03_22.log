@@ -1,0 +1,1302 @@
+[ 2014-03-22T20:41:32+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.030002s ]
+NOTIC: [8] Undefined variable: var G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-03-22T20:41:33+08:00 ] 127.0.0.1 /admin.php?&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.010001s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Behavior\ResourceCheckBehavior.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.018002s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.028002s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Model\SubmenuResourceModel.class.php 第 47 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.033001s ]
+SQL: SELECT `resource_id` FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') )  [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `mod` = 'Index' ) AND ( `act` = 'login' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.252014s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.020001s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Action\CommonAction.class.php 第 63 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () )  [ RunTime:0.018001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () ) 
+SQL: SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( `status` = 1 ) ORDER BY `listorder`' at line 1
+ [ SQL语句 ] : SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder` 
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Action\CommonAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.062003s ]
+NOTIC: [8] Undefined index: _adminUser G:\Web\itshajia\Admin\Lib\Model\ShortcutsModel.class.php 第 8 行.
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = null )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = null ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\Web\itshajia\Admin\Runtime\Cache\a56b238a17d5867314da6b5c6add02d2.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.236013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236013s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-03-22T20:41:44+08:00 ] 127.0.0.1 /admin.php?m=Index&a=login_do
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029002s ]
+SQL: SHOW COLUMNS FROM `uio_admin` [ RunTime:0.021001s ]
+SQL: SELECT * FROM `uio_admin` JOIN uio_user_group USING (group_id) WHERE ( `username` = 'itshajia' ) AND ( `password` = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.109006s ]
+NOTIC: [8] Undefined variable: var G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-03-22T20:41:45+08:00 ] 127.0.0.1 /admin.php?
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.005000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.008001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.046003s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Admin\Runtime\Cache\eba0740d7c9a8de81b2ecb7826abd307.php 第 58 行.
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Admin\Runtime\Cache\eba0740d7c9a8de81b2ecb7826abd307.php 第 58 行.
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Admin\Runtime\Cache\eba0740d7c9a8de81b2ecb7826abd307.php 第 58 行.
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Admin\Runtime\Cache\eba0740d7c9a8de81b2ecb7826abd307.php 第 58 行.
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Admin\Runtime\Cache\eba0740d7c9a8de81b2ecb7826abd307.php 第 58 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.196011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-03-22T20:41:45+08:00 ] 127.0.0.1 /admin.php?m=Main&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.005000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.053003s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.028001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.027001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.028001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T20:41:51+08:00 ] 127.0.0.1 /admin.php?m=Application&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.015001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.004000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.058003s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.014001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 54 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 65 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 68 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 79 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 87 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 101 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 107 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 113 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 116 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\35ea7dbd5e3e28a7511acb5dbafea33b.php 第 127 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T20:41:54+08:00 ] 127.0.0.1 /admin.php?m=Application&a=appList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.009001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.008000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.067004s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.015001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 116 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 119 行.
+SQL: SELECT * FROM `uio_app` ORDER BY `listorder` LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-22T20:41:59+08:00 ] 127.0.0.1 /admin.php?m=Application&a=type
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.007000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.006001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 140 行.
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `type_id` = 6 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `type_id` = 7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `type_id` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `type_id` = 10 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `type_id` = 11 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.391022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.392022s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T20:42:01+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.011001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.012000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 86 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T20:42:03+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyLog
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.012001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.019001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 255 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 258 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( `is_fee` = 1 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.064004s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_app_apply_record`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\2d21cbf20255cac5f0659b4c11c4c059.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-22T20:42:05+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.005001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.028002s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.017001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.037003s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 86 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-22T20:43:03+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyLog
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.008001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.008000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.021001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 255 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 258 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( `is_fee` = 1 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record`  [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\2d21cbf20255cac5f0659b4c11c4c059.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T20:43:06+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.012000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.008001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.026001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.012000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 86 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-22T20:44:17+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.005000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.005001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.024002s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.005001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.024001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T22:13:49+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.009001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.008000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.112006s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.038003s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.060004s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.034002s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.024001s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.023002s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.013000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.160010s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.062004s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.254015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-22T22:13:54+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.008000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.144009s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.072005s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.015001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.028002s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: agend_id G:\Web\itshajia\Admin\Runtime\Cache\553840cd0b4bdd1113363df7328a9e63.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2014-03-22T22:13:58+08:00 ] 127.0.0.1 /admin.php?m=Application&a=checkPass&record_id=7
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.011000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.005001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.015000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.013001s ]
+SQL: UPDATE `uio_app_apply_record` SET `is_check`=1 WHERE ( `record_id` = 7 ) [ RunTime:0.191011s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `record_id` = 7 ) ORDER BY `addtime` desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.012001s ]
+SQL: INSERT INTO `uio_app_apply` (`app_id`,`uid`,`addtime`,`starttime`,`endtime`,`status`) VALUES (8,4,1395497638,1395497638,1553264038,1) [ RunTime:0.085004s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-22T22:14:00+08:00 ] 127.0.0.1 /admin.php?m=Application&a=buyCheck
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.012001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.048003s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.027001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 221 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\ApplicationAction.class.php 第 224 行.
+SQL: SELECT * FROM `uio_app_apply_record` JOIN uio_app USING (app_id) WHERE ( uio_app_apply_record.is_check = 0 ) ORDER BY `addtime` desc LIMIT 0,10   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `is_check` = 0 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2014-03-22T22:40:05+08:00 ] 127.0.0.1 /admin.php?m=Article&a=announce&view=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.009000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_article` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `uio_article_category` [ RunTime:0.049003s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\ArticleAction.class.php 第 59 行.
+NOTIC: [8] Undefined index: article_id G:\Web\itshajia\Admin\Lib\Action\ArticleAction.class.php 第 88 行.
+SQL: SELECT * FROM `uio_article` WHERE ( `article_id` = null ) LIMIT 1   [ RunTime:0.024001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2014-03-22T22:40:07+08:00 ] 127.0.0.1 /admin.php?m=User&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.005000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.021001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: uid G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 46 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `is_admin` = 0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tools G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 48 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 64 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 71 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 74 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 78 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 85 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 91 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 97 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 103 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\9f7107c1a12c91f753043e6a30871dab.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T22:40:08+08:00 ] 127.0.0.1 /admin.php?m=User&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.009000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.006001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.016001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 70 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 93 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id) WHERE ( `status` = 1 ) ORDER BY `addtime` desc,`uid` desc LIMIT 0,10   [ RunTime:0.219013s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-03-22T22:40:11+08:00 ] 127.0.0.1 /admin.php?m=User&a=nopass
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.011001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 145 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 168 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id) WHERE ( `status` = 0 ) ORDER BY `addtime` desc,`uid` desc LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `status` = 0 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-22T22:40:13+08:00 ] 127.0.0.1 /admin.php?m=User&a=groupList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.006001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 220 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `is_admin` = 0 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-03-22T22:40:14+08:00 ] 127.0.0.1 /admin.php?m=User&a=groupAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.007001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.033002s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.026002s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.005001s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 254 行.
+NOTIC: [8] Undefined index: group_id G:\Web\itshajia\Admin\Lib\Action\UserAction.class.php 第 282 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tools G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 48 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 62 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined index: resource_id G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined index: resource_id G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined index: resource_id G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined index: resource_id G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: group_rules G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 76 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\26261c95f20154a3cccf9e05df03811e.php 第 88 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.094006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2014-03-22T22:40:15+08:00 ] 127.0.0.1 /admin.php?m=Admin&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.009000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.010001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.051003s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.018002s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.018001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_admin` [ RunTime:0.049003s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\AdminAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: uid G:\Web\itshajia\Admin\Lib\Action\AdminAction.class.php 第 40 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `is_admin` = 1 )  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tools G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 48 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 64 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 64 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 71 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 74 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 78 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 85 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 91 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 97 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\909f17ea49b0b21a889f1e70e5c0a9fb.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-03-22T22:40:16+08:00 ] 127.0.0.1 /admin.php?m=Admin&a=adminList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.009001s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 4 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 12 ) AND ( `status` = 1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 20 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 21 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 15 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 2 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 16 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 6 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 18 ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = 19 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = 5 ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\AdminAction.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `uio_admin` [ RunTime:0.013001s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\AdminAction.class.php 第 60 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Admin\Lib\Action\AdminAction.class.php 第 83 行.
+SQL: SELECT * FROM `uio_admin` JOIN uio_user_group USING (group_id) WHERE ( `status` = 1 ) ORDER BY `addtime` desc,`uid` desc LIMIT 0,10   [ RunTime:0.113007s ]
+SQL: SELECT * FROM `uio_admin` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004000s ]
+

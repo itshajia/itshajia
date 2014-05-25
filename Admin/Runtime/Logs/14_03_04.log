@@ -1,0 +1,597 @@
+[ 2014-03-04T23:31:56+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 75 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id)  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-03-04T23:32:56+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.003000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 75 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id)  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-04T23:33:30+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 75 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id)  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-04T23:33:58+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.001000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.001000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 75 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id)  [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-04T23:34:45+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=userList
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: op G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 75 行.
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id)  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-04T23:35:31+08:00 ] 127.0.0.1 /admin.php?m=Article&a=noteCate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\Admin\Lib\Action\ArticleAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `uio_article_category` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `uio_article_category` WHERE ( `module_tag` = 'note' )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-04T23:35:33+08:00 ] 127.0.0.1 /admin.php?m=Product&a=demoCate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002001s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.001000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\Admin\Lib\Action\ProductAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `uio_product_category` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `uio_product_category`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-04T23:35:33+08:00 ] 127.0.0.1 /admin.php?m=UserManage&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.001000s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = '1' )  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = '1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type G:\Web\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: uid G:\Web\itshajia\Admin\Lib\Action\UserManageAction.class.php 第 55 行.
+SQL: SELECT * FROM `uio_user_group`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tools G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 48 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 62 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 65 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 69 行.
+NOTIC: [8] Use of undefined constant group_id - assumed 'group_id' G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 78 行.
+NOTIC: [8] Use of undefined constant group_id - assumed 'group_id' G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 78 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 79 行.
+NOTIC: [8] Use of undefined constant group_id - assumed 'group_id' G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 78 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 79 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Admin\Runtime\Cache\4e6420b232580dfd041d70f8d77cb273.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+

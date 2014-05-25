@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>{$title}</title>
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/base.css" />
+    <link rel="stylesheet" href="{$Think.APP_NAME}/Resource/Css/admin.css" />
+    <script type="text/javascript" src="__JS__/sea.js"></script>
+    <script type="text/javascript">
+        var zxPath = "";
+        seajs.config({
+            base:zxPath,
+            alias: {
+                'jquery': '__JS__/jquery'
+            }
+        });
+    </script>
+</head>
+<body onscroll="no">
+<div class="admin">
+    <include file="Public:header" />
+    <include file="Public:menu" />
+    <div class="frame_box">
+        <div class="frame_panel">
+            <iframe id="display_frame" name="display_frame"  scrolling="auto"  src="<?php echo appUrl('m=Main&a=index'); ?>"
+                    frameborder="0" ></iframe>
+        </div>
+    </div>
+    <include file="Public:footer" />
+</div>
+
+<script>
+    seajs.use('{$Think.APP_NAME}/Resource/Js/admin');
+</script>
+</body>
+</html>

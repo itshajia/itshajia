@@ -1,0 +1,98 @@
+[ 2014-03-29T19:49:47+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 54 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-03-29T19:49:59+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 55 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2014-03-29T19:50:04+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 54 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-03-29T19:53:03+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=getColumn
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `column_id` = 54 ) AND ( `app_name` = 'wz' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-03-29T22:49:42+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T22:53:52+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T22:57:55+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T22:59:16+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user_info` [ RunTime:0.012001s ]
+SQL: DELETE FROM `uio_user_info` WHERE ( `uid` = 4 ) AND ( `info_id` = 7 ) [ RunTime:0.144008s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T23:03:11+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T23:04:01+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_info` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-29T23:05:17+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user_info` [ RunTime:0.009001s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 61 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 63 行.
+
+[ 2014-03-29T23:06:19+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_user_info` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 61 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 63 行.
+
+[ 2014-03-29T23:07:48+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_user_info` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_user_info` WHERE ( `uid` = 4 ) AND ( `info_id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `uio_user_info` SET `erwm`='' WHERE ( `uid` = 4 ) AND ( `info_id` = 8 ) [ RunTime:0.120007s ]
+NOTIC: [8] Undefined variable: dd G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+

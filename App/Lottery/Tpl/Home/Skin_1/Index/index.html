@@ -1,0 +1,37 @@
+<include file="../../App/Lottery/Tpl/Home/Skin_1/Public/header.html" />
+
+<!-- 内容主题 Start -->
+<div class="container">
+
+    <div class="lottery">
+        <div class="bg">
+            <img src="__AP__/{$Think.APP_NAME}/Resource/Skin_1/Images/bg/join_bg.jpg"/>
+        </div>
+
+        <!-- 报名表单 Start -->
+        <div class="join">
+            <form id="frm">
+                <input type="hidden" name="uid" value="<?php echo $_GET['uid']; ?>" />
+                <input type="hidden" name="lot_id" value="<?php echo $_GET['lot_id']; ?>" />
+                <input type="hidden" name="openid" value="<?php echo $_GET['openid']; ?>" />
+                <div class="join_group">
+                    <div class="join_item">
+                        <input type="number" class="txt" name="tel" id="tel" value="" placeholder="联系电话"/>
+                    </div>
+                    <div class="join_item">
+                        <input class="txt" name="truename" id="truename" value="" placeholder="姓名" />
+                    </div>
+                    <div class="join_item">
+                        <a href="javascript:;" id="goToJoin" class="goToJoin">点击报名</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!-- 报名表单 End -->
+
+    </div>
+
+</div>
+
+<include file="../../App/Lottery/Tpl/Home/Skin_1/Public/footer.html" />

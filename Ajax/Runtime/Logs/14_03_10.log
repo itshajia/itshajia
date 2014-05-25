@@ -1,0 +1,51 @@
+[ 2014-03-10T08:52:42+08:00 ] 127.0.0.1 /ajax.php?m=User&a=buyNow
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: _type E:\Working\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_app` WHERE ( `app_id` = '8' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.003325s ]
+SQL: INSERT INTO `uio_app_apply_record` (`app_id`,`uid`,`addtime`,`is_check`) VALUES (8,4,1394412762,0) [ RunTime:0.036150s ]
+
+[ 2014-03-10T09:44:21+08:00 ] 127.0.0.1 /ajax.php?m=User&a=buyNow
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined index: _type E:\Working\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_app` WHERE ( `app_id` = '7' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.003130s ]
+SQL: INSERT INTO `uio_app_apply_record` (`app_id`,`uid`,`addtime`,`is_check`) VALUES (7,4,1394415861,1) [ RunTime:0.044660s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.003419s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `app_id` = 7 ) AND ( `uid` = 4 ) ORDER BY `addtime` desc LIMIT 1   [ RunTime:0.000362s ]
+SQL: INSERT INTO `uio_app_apply` (`app_id`,`uid`,`addtime`,`status`) VALUES (7,4,1394415861,1) [ RunTime:0.036526s ]
+
+[ 2014-03-10T09:47:59+08:00 ] 127.0.0.1 /ajax.php?m=User&a=buyNow
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: _type E:\Working\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_app` WHERE ( `app_id` = '8' ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.003595s ]
+SQL: INSERT INTO `uio_app_apply_record` (`app_id`,`uid`,`addtime`,`is_check`) VALUES (8,4,1394416079,0) [ RunTime:0.051973s ]
+
+[ 2014-03-10T14:29:18+08:00 ] 127.0.0.1 /ajax.php?m=User&a=buyNow
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined index: _type E:\Working\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_app` WHERE ( `app_id` = '7' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.003243s ]
+SQL: INSERT INTO `uio_app_apply_record` (`app_id`,`uid`,`addtime`,`is_check`) VALUES (7,4,1394432958,1) [ RunTime:0.053143s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.003363s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `app_id` = 7 ) AND ( `uid` = 4 ) ORDER BY `addtime` desc LIMIT 1   [ RunTime:0.000285s ]
+SQL: INSERT INTO `uio_app_apply` (`app_id`,`uid`,`addtime`,`status`) VALUES (7,4,1394432958,1) [ RunTime:0.036350s ]
+
+[ 2014-03-10T14:29:25+08:00 ] 127.0.0.1 /ajax.php?m=User&a=buyNow
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined index: _type E:\Working\itshajia\ThinkPHP\Lib\Core\Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_app` WHERE ( `app_id` = '8' ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.003354s ]
+SQL: INSERT INTO `uio_app_apply_record` (`app_id`,`uid`,`addtime`,`is_check`,`year`) VALUES (8,4,1394432965,0,5) [ RunTime:0.045747s ]
+

@@ -1,0 +1,32 @@
+<!--后台管理左菜单栏 start-->
+<div class="slide_bar">
+    <div class="slide_group">
+        <volist name="leftMenu" id="menu">
+            <div class="menu_bar <?php if(!$menu['show']){ ?> hidden <?php } ?>" id="{$menu.tag}">
+                <volist name="menu.sons" id="son" key="j" >
+                    <?php if($son['three_sons']){ ?>
+                    <dl>
+                        <dt><i class="<?php if($j==1){ ?> arrow_b <?php }else{ ?> arrow_r <?php } ?>"></i>{$son.submenu_name}</dt>
+                        <dd <?php if($j!=1){ ?>style=""<?php } ?>>
+                        <ul>
+                            <volist name="son.three_sons" id="three_son">
+                                <li><a href="<?php echo $three_son['resource_url']; ?>" target="display_frame">{$three_son.resource_name}</a></li>
+                            </volist>
+                        </ul>
+                        </dd>
+                    </dl>
+                    <?php } ?>
+                </volist>
+            </div>
+        </volist>
+    </div>
+</div>
+<!--后台管理左菜单栏 end-->
+<!--后台管理工具栏 start-->
+<div class="tool_box">
+    <div class="bread">
+        <a href="__APP__">管理首页</a>
+        <span class="font_st">></span>
+    </div>
+</div>
+<!--后台管理工具栏 end-->

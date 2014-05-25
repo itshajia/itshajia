@@ -1,0 +1,54 @@
+[ 2014-03-17T18:35:32+08:00 ] 127.0.0.1 /Api/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\Web\itshajia\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' G:\Web\itshajia\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-03-17T19:28:23+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.100006s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-03-17T19:28:28+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-03-17T19:28:29+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2014-03-17T19:28:29+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-03-17T19:28:30+08:00 ] 127.0.0.1 /api.php?m=Interface&a=index&u=webchater
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `username` = 'webchater' ) LIMIT 1   [ RunTime:0.001000s ]
+

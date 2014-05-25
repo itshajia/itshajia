@@ -1,0 +1,293 @@
+[ 2014-04-04T02:27:19+08:00 ] 127.0.0.1 /index.php?g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.058003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.124007s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.038002s ]
+NOTIC: [8] Undefined variable: var G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-04-04T02:27:22+08:00 ] 127.0.0.1 /index.php?&g=User&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.331019s ]
+NOTIC: [8] Undefined index: _User G:\Web\itshajia\Home\Lib\Action\User\CommonAction.class.php 第 174 行.
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = null ) AND ( `status` = 1 )  [ RunTime:0.051003s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.179011s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.321018s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: reg G:\Web\itshajia\Home\Runtime\Cache\User\c2d8fdea3114f9c978ad4569bba6dabf.php 第 39 行.
+NOTIC: [8] Undefined variable: reg G:\Web\itshajia\Home\Runtime\Cache\User\c2d8fdea3114f9c978ad4569bba6dabf.php 第 50 行.
+NOTIC: [8] Undefined variable: error G:\Web\itshajia\Home\Runtime\Cache\User\c2d8fdea3114f9c978ad4569bba6dabf.php 第 51 行.
+NOTIC: [8] Undefined variable: reg G:\Web\itshajia\Home\Runtime\Cache\User\c2d8fdea3114f9c978ad4569bba6dabf.php 第 70 行.
+NOTIC: [8] Undefined variable: reg G:\Web\itshajia\Home\Runtime\Cache\User\c2d8fdea3114f9c978ad4569bba6dabf.php 第 81 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.255015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.255015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.022001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-04-04T02:27:23+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.034002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-04-04T02:27:29+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=login_do
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.159009s ]
+SQL: SELECT * FROM `uio_user` JOIN uio_user_group USING (group_id) WHERE ( `username` = 'webchater' ) AND ( `password` = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.070004s ]
+NOTIC: [8] Undefined variable: var G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given G:\Web\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-04-04T02:27:29+08:00 ] 127.0.0.1 /index.php?&g=User
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Home\Runtime\Cache\User\7015259f2be7066dc0b1ff1df0cd3ab1.php 第 63 行.
+NOTIC: [8] Undefined index: show G:\Web\itshajia\Home\Runtime\Cache\User\7015259f2be7066dc0b1ff1df0cd3ab1.php 第 63 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.250015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2014-04-04T02:27:30+08:00 ] 127.0.0.1 /index.php?g=User&m=Home&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app` [ RunTime:0.075004s ]
+SQL: SELECT * FROM `uio_app` WHERE ( `is_top` = 1 ) ORDER BY `listorder` LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply_record` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `status` = 1 ) AND ( `app_id` = 7 ) ORDER BY `addtime` desc LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `app_id` = 7 ) AND ( `is_check` = 0 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `app_id` = 8 ) AND ( `status` = 1 ) ORDER BY `addtime` desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_app_apply_record` WHERE ( `app_id` = 8 ) AND ( `is_check` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_article` [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `uio_user` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `uio_article` WHERE ( uio_article.status = 1 ) AND ( uio_article.module_tag = 'announce' ) ORDER BY `listorder`,`addtime` desc LIMIT 0,7   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `uio_user` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: is_apply G:\Web\itshajia\Home\Runtime\Cache\User\30dbf7a6614016acb31c35ef280265d5.php 第 67 行.
+NOTIC: [8] Undefined index: is_check G:\Web\itshajia\Home\Runtime\Cache\User\30dbf7a6614016acb31c35ef280265d5.php 第 70 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.089005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-04T02:27:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-04T02:27:38+08:00 ] 127.0.0.1 /index.php?g=User&m=User&a=imgReply
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uio_reply` [ RunTime:0.063003s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 194 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 232 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 250 行.
+SQL: SELECT * FROM `uio_reply` WHERE ( uio_reply.uid = '4' ) AND ( uio_reply.reply_type = 1 ) LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_reply` WHERE ( `uid` = 4 ) AND ( `reply_type` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-04-04T02:27:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-04-04T02:27:40+08:00 ] 127.0.0.1 /index.php?g=User&m=User&a=imgReply&view=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `uio_reply` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 198 行.
+NOTIC: [8] Undefined index: reply_id G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Home\Runtime\Cache\User\82dca909e91b6fb8910372d90cb0fb03.php 第 57 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Home\Runtime\Cache\User\82dca909e91b6fb8910372d90cb0fb03.php 第 63 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-04-04T02:27:41+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-04T02:27:42+08:00 ] 127.0.0.1 /index.php?g=User&m=User&a=imgReply
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `uio_reply` [ RunTime:0.008001s ]
+NOTIC: [8] Undefined index: view G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 194 行.
+NOTIC: [8] Undefined index: submit G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 232 行.
+NOTIC: [8] Undefined index: page G:\Web\itshajia\Home\Lib\Action\User\UserAction.class.php 第 250 行.
+SQL: SELECT * FROM `uio_reply` WHERE ( uio_reply.uid = '4' ) AND ( uio_reply.reply_type = 1 ) LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_reply` WHERE ( `uid` = 4 ) AND ( `reply_type` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-04-04T02:27:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-04T02:27:44+08:00 ] 127.0.0.1 /index.php?g=User&m=User&a=imgReply&view=pic&reply_id=6
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_app_apply` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `uio_app_apply` WHERE ( `uid` = 4 ) AND ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_app_type` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `uio_app_type` ORDER BY `listorder`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_reply` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `uio_reply_img` [ RunTime:0.044003s ]
+SQL: SELECT * FROM `uio_reply` WHERE ( `reply_id` = 6 ) AND ( `uid` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_reply_img` WHERE ( `reply_id` = 6 ) AND ( `uid` = 4 ) AND ( `is_first` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `uio_reply_img` WHERE ( `reply_id` = 6 ) AND ( `uid` = 4 ) AND ( `is_first` = 0 ) ORDER BY `sort`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-04-04T02:27:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-04-04T02:27:46+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-04-04T02:27:46+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-04-04T02:27:51+08:00 ] 127.0.0.1 /Resource/Js/jquery.min.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

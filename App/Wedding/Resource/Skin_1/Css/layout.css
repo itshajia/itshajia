@@ -1,0 +1,195 @@
+@media screen and ( max-width:480px ){
+
+}
+
+@media screen and ( min-width:480px ) and ( max-width:720px ){
+
+}
+
+@media screen and ( min-width:720px) and ( max-width:960px ) {
+
+}
+
+@media screen and ( min-width:960px ) and ( max-width:1200px ){
+
+}
+
+@media screen and ( min-width:1200px ){
+
+}
+
+body{
+    /*min-height: 600px;
+    background-image: url(../Images/bg/bg.png);
+    background-color: #970214;
+    background-position: center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;*/
+}
+#loading{
+    position: absolute; top: 0px; left: 0px; width: 100%; height: 400%; background: #ffffff;
+}
+#heart{
+    position: absolute;
+    left: 50%; top: 13%;
+    margin: -50px 0 0 -30px;
+}
+#waiting{
+    position: absolute; width: 100px; text-align: center;
+    margin: 10px 0 0 -45px; left: 50%; top: 13%;
+}
+.wedding{
+    position: relative;
+}
+.bg{
+
+}
+.bg img{
+    width: 100%;
+}
+.bg_inner{
+    background-image: url(../Images/bg/bg_inner.jpg);
+    background-position: center top;
+    background-size: 100%;
+}
+
+.enterColumn{
+    position: absolute; bottom: 20px; right: 30px;
+    width: 200px; height: 67px; display: inline-block;
+    background: url(../Images/btn/enter.png) no-repeat;
+}
+.column{
+    position: absolute; bottom: 0px; left: 0px; padding: 0px;
+    background: rgba(0,0,0,0.4); width: 100%;
+    border-top: 2px solid rgba(0,0,0,0.6);
+    padding-top: 10px;
+}
+.column_inner{
+    /*padding: 5px;*/
+}
+.column_item{
+    float: left; width: 33%;
+}
+.column_item a{
+    font-size: 40px; color: #f6c3ca;
+    display: inline-block;
+    width: 100%; height: 65px; text-align: center;
+}
+.column_item span{
+    display: block;
+}
+.column_item .column_name{
+    color: #ffffff; font-size: 14px;
+}
+
+.bless_frm{
+    font-size: 13px;
+}
+.bless_item{
+    margin: 10px 0px;
+}
+.photoWin{
+    position: absolute; top: 0px; left: 0px; width: 100%;
+}
+
+.photoBox{
+    width: 62.2%; position: relative;
+    margin-top: 26.6%; margin-left: auto; margin-right: auto;
+}
+.photoBox img{
+    width: 100%;
+}
+.photoFirst{
+    position: absolute; top: 0px; left: 0px;
+    width: 100%; height: 100%; /*background: blue;*/
+}
+.photoFirstInner{
+    padding: 4%;
+}
+.photoFirst img{
+    width: 100%;
+}
+
+
+/*touchslider*/
+.touchbox{
+    position: fixed;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    width: 100%;
+    display: none;
+    z-index: 11;
+}
+
+.touchcover{
+    position: absolute;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    width: 100%;
+    background: rgba(0,0,0,1);
+}
+
+.touchslider{
+    position: absolute;
+    width: 100%;
+    bottom: 80px;
+}
+
+.touchslider-viewport{
+    background: #1a1a1a;
+    width: 100%; height: 280px; overflow: hidden;
+}
+
+.touchslider-item{
+    height: 250px; overflow: hidden;
+}
+
+.touchslider-item img.img{
+    width: 100%; max-width: 640px;
+    margin-left: auto; margin-right: auto;
+    display: block;
+}
+
+.screen{
+    position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px;
+    background: url(../Images/bg/screen_bg.jpg) center top no-repeat;
+    overflow: hidden;
+}
+
+.screenInner{
+    position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.blessList{
+    padding: 20px; margin-top: 50px;
+}
+.blessGroup{
+
+}
+.blessItem{
+    padding: 20px;
+    background: #ffffff; margin: 10px 0px;
+
+}
+.blessItemImgBox{
+    float: left; margin-right: 15px;
+}
+.blessItemImgBox img{
+
+}
+.blessItemInfo{
+    position: relative; height: 100px;
+    color: #FF008B;
+}
+.blessItemTitle{
+    font-size: 30px; margin-bottom: 10px;
+}
+.blessItemMsg{
+    font-size: 40px;
+}
+.blessItemTime{
+    position: absolute; right: 10px; bottom: 0px;
+}
+
+

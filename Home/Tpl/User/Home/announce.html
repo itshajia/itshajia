@@ -1,0 +1,31 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">平台公告</span>
+            <span class="con_title2 font_yahei"></span>
+        </div>
+
+        <div class="con_body">
+
+            <div class="announceShow">
+                <div class="announceShowHead font_b font_yahei">
+                    <span class="announceShowTitle"><?php echo $obj['title']; ?></span>
+                </div>
+                <div class="announceShowInfo font_yahei">
+                    <span class="announceShowInfoItem">时间：<?php echo format_time($obj['addtime']); ?></span>
+                    <span class="announceShowInfoItem">阅读人数：<?php echo $obj['views']; ?></span>
+                </div>
+                <div class="announceShowContent"><?php echo $obj['description']; ?></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<include file="Public:iframe_footer" />

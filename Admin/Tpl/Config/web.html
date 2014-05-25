@@ -1,0 +1,46 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">系统配置</span>
+            <span class="con_title2 font_yahei">网站设置</span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Config&a=web'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <input type="hidden" name="is_public" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">用户注册审核：</th>
+                        <td width="">
+                            <input type="radio" name="config[register_check]" value="1" <?php if($Config['register_check']==1){?> checked="checked" <?php } ?> />开启&nbsp;&nbsp;
+                            <input type="radio" name="config[register_check]" value="0" <?php if($Config['register_check']==0){?> checked="checked" <?php } ?> />关闭
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="article_id" id="article_id" value="{$obj['article_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<include file="Public:iframe_footer" />

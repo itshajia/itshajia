@@ -1,0 +1,53 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">自定义菜单</span>
+            <span class="con_title2 font_yahei">授权设置</span>
+        </div>
+
+        <div class="con_body">
+
+            <div class="con_msg c333 font_yahei">
+                <div class="con_msg_item">使用本模块，必须要在微信公众平台"开发模式"下使用自定义菜单，首先要在公众平台申请自定义菜单使用的<strong class="red">AppId</strong>和<strong class="red">AppSecret</strong>。</div>
+            </div>
+            <form action="<?php echo appUrl('m=User&a=menuAuth'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">应用ID：</th>
+                        <td>
+                            <input name="appId" id="appId" value="{$obj.appId}" class="txt" datatype="*" nullmsg="请填写应用Id！" style="width:300px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">应用密钥：</th>
+                        <td>
+                            <input name="appSecret" id="appSecret" value="{$obj.appSecret}" class="txt" datatype="*" nullmsg="请填写应用密钥！" style="width:300px;" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="info_id" id="info_id" value="{$obj['info_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">保存</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<include file="Public:iframe_footer" />

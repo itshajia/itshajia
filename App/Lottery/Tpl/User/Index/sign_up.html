@@ -1,0 +1,47 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">数据管理</span>
+            <span class="con_title2 font_yahei">报名人数</span>
+
+        </div>
+
+        <div class="con_body">
+            <form action="<?php echo appUrl('m=Index&a=signUp'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" id="submit" name="submit" value="1" />
+                <input type="hidden" name="lot_id" value="<?php echo $_GET['lot_id']; ?>" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                    <tr>
+                        <td width="5%"><input type="checkbox" class="checkbox" />ID</td>
+                        <td width="20%">姓名</td>
+                        <td width="30%">头像</td>
+                        <td width="20%">手机号码</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list" id="item">
+                        <tr>
+                            <td><input type="checkbox" class="checkbox" name="id[{$item.id}]" />{$item.id}</td>
+                            <td class="no_lineH"><a href="javascript:;" class="">{$item.truename}</a></td>
+                            <td class="no_lineH">
+                                <img class="avatar" src="{$item.headimgurl}" />
+                            </td>
+                            <td>{$item.tel}</td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+            </form>
+            {$pageHtml}
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+<include file="Public:iframe_footer" />

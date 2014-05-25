@@ -1,0 +1,22 @@
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/header.html" />
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/headTop.html" />
+
+<!-- 内容主体 Start -->
+<div class="container font_yahei">
+    <div class="news">
+        <div class="newsHead">
+            <span class="newsTitle font_b">{$obj.title}</span>
+        </div>
+        <div class="newsInfo">
+            <span>发布时间：<?php echo format_time($obj['addtime']); ?></span>
+        </div>
+        <div class="newsBody">
+            {$obj.description}
+        </div>
+    </div>
+
+</div>
+
+<!-- 内容主体 End -->
+
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/footer.html" />

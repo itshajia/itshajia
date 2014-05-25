@@ -1,0 +1,138 @@
+.cssLayer{
+    position: absolute; top: 0px; left: 0px; right:0px; bottom: 0px;
+    background: rgba(0,0,0,0.75); overflow: hidden;
+}
+.cssLayerOutter{
+    text-align: center; height: 100%; position: relative; left: 0; top: 0;
+}
+.cssLayerInner{
+    text-align: center; height: 100%; position: relative; left: 100%; top: 0;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.cssLayerInner.out{
+    left: 0px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.cssLayerInner.lmsg{
+    left: 0px;
+}
+/*.cssLayerInner.lmsg .cssLayerBox{
+    left: 0; top: -100%;
+}
+.cssLayerInner.lmsg.out .cssLayerBox{
+    top: 0;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}*/
+.cssLayerInner.lmsg .cssLayerBox{
+    top: -100%;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.cssLayerBox{
+    margin-left: auto; margin-right: auto; /*margin-top: 50px;*/
+    position: relative;
+    padding: 2px 0 0 2px; text-align: left;
+}
+.cssLayerInner.lmsg .cssLayerBox.out{
+    top: 0;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.cssLayerShadow{
+    position: absolute; top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    *border: 1px solid #dadada;
+}
+.cssLayerHead{
+    height: 30px; line-height: 30px;
+    border-bottom: 1px solid #c6c6c6;
+    background: url(./head_bg.png) repeat-x;
+    position: relative; cursor: move;
+}
+.cssLayerTitle{
+    font-size: 14px; font-weight: bold; padding-left: 5px; line-height: 26px;
+}
+.cssLayerClose{
+    position: absolute; top: 5px; right: 5px;
+    display: inline-block; width: 20px; height: 20px;
+    background: url("./icons-all.gif") no-repeat 0 -59px;
+}
+.cssLayerClose:hover{
+    background: url("./icons-all.gif") no-repeat 0 -89px;
+}
+
+.cssLayerBody{
+    /*min-height: 150px;*/
+}
+.cssLayerBody.scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.cssLayerBodyInner{
+
+}
+.no_padding .cssLayerBodyInner{
+    /*padding: 0px; border: 0px;*/
+}
+.cssBodyContainer{
+    margin: 10px; padding: 10px; border: 1px solid #dadada;
+}
+.cssBodyContainer.lmsg.error{
+    color: red;
+}
+.cssBodyContainer.lmsg.success{
+    color: green;
+}
+.cssBodyContainer.lmsg{
+    border:0px; font-size: 16px;
+}
+.cssLayerFoot{
+    height: 40px;
+}
+.cssLayerFootInner{
+    position: absolute; right: 0px;
+}
+.cssLayerButton{
+    display: inline-block; float: left;
+    background: url("./icons-all.gif") no-repeat;
+    height: 24px; width: 96px; font-size: 12px; line-height: 24px; margin-right: 10px;
+    text-align: center;
+    color: #333333; text-decoration: none;
+}
+.cssLayerButton:hover{
+    background: url("./icons-all.gif") no-repeat 0 -30px;
+}
+.cssLayerOK{
+
+}
+.cssLayerCancel{
+
+}
+.cssLayerMsg{
+    color: #f22e00;
+}

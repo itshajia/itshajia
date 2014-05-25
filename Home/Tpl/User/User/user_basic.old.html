@@ -1,0 +1,112 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">基本设置</span>
+            <span class="con_title2 font_yahei"></span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('Blog/basic'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">用户名称：</th>
+                        <td width="">{$obj.username}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">微信二维码：</th>
+                        <td>
+                            <!-- 图片上传 Start -->
+                            <div><span id="imageBtn" class="uploadBtn">上传</span></div>
+                            <div class="uploadImgWin">
+                                <div class="uploadImgBox clearfix" id="uploadImgBox">
+                                    <?php if($obj['wx_ewm']){ ?>
+                                    <div class="uploadImgGroup">
+                                        <div class="uploadImgPic">
+                                            <img src="{$obj['wx_ewm']}" />
+                                        </div>
+                                        <div class="uploadImgOpe">
+                                            <a href="javascript:;" class="uploadDel" data-src="{$obj['wx_ewm']}">删除</a>
+                                        </div>
+                                    </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                            <input type="hidden" id="uploadImg" name="wx_ewm" value="{$obj['wx_ewm']}"  />
+                            <script id="myeditorImg"></script>
+                            <script type="text/x-jquery-tmpl" id="uploadImgTmpl">
+                                <div class="uploadImgGroup">
+                                    <div class="uploadImgPic">
+                                        <img src="{{= src}}" />
+                                    </div>
+                                    <div class="uploadImgOpe"><a href="javascript:;" class="uploadDel" data-src="{{= src}}">删除</a></div>
+                                </div>
+                            </script>
+                            <!-- 图片上传 End -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">博客简介：</th>
+                        <td class="textarea">
+                            <textarea name="blog_info" id="myEditor" datatype="*" nullmsg="请填写站点简介！">{$obj.blog_info}</textarea>
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="blog_id" id="blog_id" value="{$obj['blog_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<!--UEditor Start-->
+<script type="text/javascript" src="__JS__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__JS__/ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script style="text/javascript">
+    UE.getEditor("myEditor", {
+        toolbars:[['FullScreen','Source', 'Undo', 'Redo','Bold','forecolor','test','link','unlink','fontfamily','fontsize','justifyleft', 'justifycenter', 'justifyright', 'justifyjustify','insertcode','map','gmap','insertimage','insertvideo',,'preview','searchreplace','cleardoc','date','time','horizontal']],
+        wordCount:false,
+        elementPathEnabled:false,
+        initialFrameWidth: 800,
+        initialFrameHeight: 300
+    });
+</script>
+<!--UEditor End-->
+
+<script>
+    seajs.use('{$Think.APP_NAME}/Resource/Js/iframe', function( Iframe ) {
+
+        Iframe.setDate('addtime');
+
+    });
+</script>
+<script>
+    seajs.use('{$Think.APP_NAME}/Resource/Js/imageUpload', function( Image ){
+
+        Image.upload({
+            inputID: 'uploadImg',
+            scriptId: 'myeditorImg',
+            spanId: 'imageBtn'
+        });
+    });
+</script>
+
+<include file="Public:iframe_footer" />

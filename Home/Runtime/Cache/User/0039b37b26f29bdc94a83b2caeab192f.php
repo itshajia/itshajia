@@ -1,0 +1,243 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title><?php echo ($title); ?></title>
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/base.css" />
+    <link rel="stylesheet" href="__CSS__/1210.css" />
+    <link rel="stylesheet" href="__JS__/validform/css/validform.css" />
+    <link rel="stylesheet" href="__CSS__/iframe.css" />
+    <script type="text/javascript" src="__JS__/common.js"></script>
+    <script type="text/javascript" src="__JS__/sea.js"></script>
+    <script type="text/javascript">
+        var zxPath = "";
+        var basePath = "";
+        seajs.config({
+            base:'',
+            alias: {
+                'jquery': '__JS__/jquery.js',
+                'uio': '__JS__/jquery.uio.js',
+                'tmpl': '__JS__/jquery.tmpl.js',
+                'validform': '__JS__/validform/validform.js',
+                'json': '__JS__/jquery.json.js',
+                'easyLayer.css': '__JS__/zxEasyLayer/Css/zxEasyLayer.css',
+                'easyLayer': '__JS__/zxEasyLayer/Js/jquery.zxEasyLayer.js',
+                'imageUpload': '__JS__/imageUpload.js'
+            }
+        });
+    </script>
+</head>
+<body>
+
+<div class="frame_box">
+    <div class="frame_panel">
+
+
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">自定义菜单</span>
+            <span class="con_title2 font_yahei">菜单设置</span>
+        </div>
+
+        <div class="con_body">
+
+            <div class="con_msg c333 font_yahei po_re">
+                <div class="con_msg_item">1、一级菜单个数范围：2-3个，二级菜单个数范围：2-5个，菜单最多支持两层。</div>
+                <div class="con_msg_item">2、点击<strong class="red">“保存按钮”</strong>可以对菜单设置进行保存，但最终只有<strong class="red">“发布”</strong>后才能生效。 </div>
+                <div class="con_msg_item">3、发布后请<strong class="red">“先取消再关注”</strong>查看实时效果。</div>
+                <div class="po_ab" style="right: 10px; bottom: 10px;">
+                    <form action="<?php echo appUrl('m=User&a=menuRelease'); ?>" method="post" name="frm">
+                        <input type="hidden" name="submit" value="1" />
+                        <button type="submit" onclick="return cfirm();" class="uio_btn">菜单发布</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <form action="<?php echo appUrl('m=User&a=menuSet'); ?>" method="post" name="frm">
+            <input type="hidden" name="submit" value="1" />
+            <!-- 菜单列表 Start -->
+            <div class="customMenu">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                    <tr>
+                        <td width="10%">选择</td>
+                        <td width="10%">序号</td>
+                        <td width="30%">菜单名称</td>
+                        <td width="25%">操作</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><tr>
+                            <td><?php echo UnlimitTagEcho($item['level']); ?><input type="checkbox" class="checkbox" name="id[<?php echo ($item["menu_id"]); ?>]" /></td>
+                            <td><?php echo UnlimitTagEcho($item['level']); ?><input type="text" class="txt" size="<?php echo 12-$item['level']*3 ?>" name="id[<?php echo ($item["menu_id"]); ?>][listorder]" value="<?php echo ($item["listorder"]); ?>" /></td>
+                            <td><?php echo UnlimitTagEcho($item['level']); echo ($item["title"]); ?></td>
+                            <td>
+                                <a class="menu_edit" dataId="<?php echo ($item["menu_id"]); ?>" href="javascript:;">编辑</a>
+                                <a class="menu_del" dataId="<?php echo ($item["menu_id"]); ?>" href="javascript:;">删除</a>
+                            </td>
+                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </tbody>
+                    <tbody>
+                    <tr class="no_line">
+                        <td colspan="6">
+                            <div class="clearfix">
+                                <button type="button" class="uio_btn" id="menu_add">添加</button>
+                                <button type="submit" class="uio_btn">保存</button>
+
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- 菜单列表 End -->
+            </form>
+
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<script type="text/x-jquery-tmpl" id="easyLayerTmpl">
+<form id="frm">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <th scope="row" width="100px;">菜单名称：</th>
+                <td>
+                    <input name="title" id="title" class="txt" value="{{= title}}" style="width:150px;" />
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" width="100px;">父级菜单</th>
+                <td>
+                    {{if !menu_id}}
+                    <select name="parent_id" id="parent_id" style="width:150px;">
+                        <option value="0">顶级菜单</option>
+                        <?php foreach( $menuOneList as $k=>$v ){ ?>
+                        <option value="<?php echo $v['menu_id'] ?>">|-- <?php echo $v['title'] ?></option>
+                        <?php } ?>
+                    </select>
+                    {{else}}
+                    {{= title_p}}
+                    {{/if}}
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row" width="100px;">菜单类型：</th>
+                <td>
+                    <input type="radio" class="menu_type" name="menu_type" value="click" {{if menu_type=='click' || !menu_type}}  checked="checked"{{/if}} />按钮
+                    <input type="radio" class="menu_type" name="menu_type" value="view" {{if menu_type=='view'}} checked="checked" {{/if}} />超链接
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" width="100px;">
+                {{if menu_type=='click' || !menu_type}}
+                <span id="bind_title">绑定规则</span>
+                <span id="link_title" class="hidden">链接地址</span>
+                {{/if}}
+                {{if menu_type=='link'}}
+                <span id="bind_title" class="hidden">绑定规则</span>
+                <span id="link_title">链接地址</span>
+                {{/if}}
+                ：
+                </th>
+                <td>
+                    {{if menu_type=='click' || !menu_type}}
+                    <span id="menu_key_win">
+                    <span id="menu_key_show" >{{= menu_key}}</span>
+                    <button type="button" id="menu_key_btn" class="btnGraySs">选择</button>
+                    </span>
+                    <input type="hidden" name="menu_key" id="menu_key" class="txt" value="{{= menu_key}}" style="width:250px;" nullmsg="请选择绑定规则！">
+                    {{/if}}
+                    {{if menu_type=='link'}}
+                    <span id="menu_key_win" class="hidden">
+                    <span id="menu_key_show">{{= menu_key}}</span>
+                    <button type="button" id="menu_key_btn" class="btnGraySs">选择</button>
+                    </span>
+                    <input type="text" name="menu_key" id="menu_key" class="txt" value="{{= menu_key}}" style="width:250px;" nullmsg="请填写链接地址！">
+                    {{/if}}
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" width="100px;">排序：</th>
+                <td>
+                    <input name="listorder" id="listorder" class="txt" value="{{= listorder}}" style="width:100px;" />
+                    <input type="hidden" name="menu_id" id="menu_id" value="{{= menu_id}}" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</script>
+
+<script type="text/x-jquery-tmpl" id="menuKeyTmpl">
+<table cellpadding="0" cellspacing="0" border="0">
+    <tbody>
+    <tr>
+        <th scope="row" width="50px;">图文：</th>
+        <td>
+            <?php foreach( $imgReplyList as $k=>$v ){ ?>
+            <a href="javascript:;" class="menu_key" dataKey="<?php echo $v['menu_key'] ?>"><?php echo $v['keyword']; ?></a>
+            <?php } ?>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" width="50px;">文本：</th>
+        <td>
+            <?php foreach( $textReplyList as $k=>$v ){ ?>
+            <a href="javascript:;" class="menu_key" dataKey="<?php echo $v['menu_key'] ?>"><?php echo $v['keyword']; ?></a>
+            <?php } ?>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row" width="50px;">应用：</th>
+        <td>
+            <?php foreach( $appList as $k=>$v ){ ?>
+            <a href="javascript:;" class="menu_key" dataKey="<?php echo $v['menu_key'] ?>"><?php echo $v['app_name'] ?></a>
+            <?php } ?>
+        </td>
+    </tr>
+    </tbody>
+</tbody>
+</script>
+
+<!--UEditor Start-->
+<script type="text/javascript" src="__JS__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__JS__/ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<!--UEditor End-->
+
+<script>
+    seajs.use('<?php echo (APP_NAME); ?>/Resource/Js/menu', function( Menu ){
+
+        Menu.edit();
+    });
+</script>
+
+
+    </div>
+</div>
+<script>
+    seajs.use('__JS__/iframe', function( Iframe ) {
+
+        window.page = Iframe.pageGo;
+        window.localGo = Iframe.localGo;
+
+        Iframe.validform();
+        Iframe.multiSelect();
+        Iframe.resetIframe();
+
+    });
+</script>
+</body>
+</html>

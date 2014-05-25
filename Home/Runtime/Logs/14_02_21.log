@@ -1,0 +1,9 @@
+[ 2014-02-21T15:52:43+08:00 ] 192.168.1.112 /Index.php/index/uid/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+ERR: 无法加载模块:index
+

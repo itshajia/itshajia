@@ -1,0 +1,676 @@
+/*Iframe Start*/
+
+.container{
+    padding: 20px 10px;
+}
+.app .container{
+    border-left: 5px solid #dadada;
+    margin-left: -5px;
+}
+
+.panel{
+
+}
+
+.con_header{
+    height: 35px; line-height: 35px;
+    border-bottom: 1px solid #dadada;
+    padding-left: 10px;
+}
+
+.con_header a{
+    font-size: 12px;
+    /*margin-right: 15px;*/
+    color: #00C0E4;
+}
+
+.con_title{
+    font-size: 20px; color: #000000;
+}
+
+.con_title2{
+    font-size: 14px; color: #666666;
+    margin-left: 15px;
+}
+
+.con_search{
+    font-size: 14px;
+}
+
+.con_tool{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.con_tool a{
+    color: #00C0E4;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.con_tool a.active{
+    background: #00C0E4;
+    color: #ffffff;
+}
+
+.con_body{
+    padding: 10px; padding-bottom: 50px;
+    font-size: 13px;
+}
+
+.con_body table{
+    width: 100%;
+}
+
+.con_body table td{
+    padding-left: 10px;
+}
+
+.con_body thead{
+    height: 30px; line-height: 30px;
+    border-bottom: 2px solid #dadada;
+}
+
+.con_body thead tr{
+
+}
+
+.con_body thead tr td{
+    font-weight: bold;
+    color: #666666;
+}
+
+.con_body tbody{
+
+}
+
+.con_body tbody tr{
+    height: 40px; line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.con_body tbody tr .textarea{
+    line-height: normal;
+    padding: 20px 10px;
+}
+
+.con_body tbody tr:hover{
+    background: #E7F4FA;
+}
+
+.con_body tbody tr.no_line{
+    border: 0px;
+}
+
+.con_body tbody tr.no_line:hover{
+    background: transparent;
+}
+
+.con_body tbody tr td{
+    vertical-align: middle;
+}
+.con_body tbody tr td.top{
+    vertical-align: top;
+}
+
+.con_body tbody tr td.no_lineH{
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.con_body tbody a{
+    color: #00C0E4;
+    padding:2px 5px;
+}
+
+.con_body table th{
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.con_body table button.uio_btn,button.uio_btn{
+    background: url(../Images/btn/btn.png) no-repeat;
+    width: 72px; height: 30px;
+    border: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.con_body table thead input.checkbox{
+}
+
+.con_body table tbody input.checkbox{
+}
+
+.con_msg{
+    padding: 0px 10px;
+    background: #FFFAD8; border: 1px solid #E9DAB1;
+    margin-bottom: 10px;
+}
+
+.con_msg_item{
+    height: 30px; line-height: 30px;
+}
+
+
+/*Page Start*/
+.page{
+    margin-top: 10px;
+}
+
+.page_panel{
+    float: right;
+}
+
+.page_item{
+    float: left; display: inline-block;
+}
+
+.page_info{
+    color: #666666;
+    float: left; display: inline-block;
+    height: 22px; line-height: 22px;
+}
+
+.page_go{
+    margin-left: 15px;
+    float: left; display: inline-block;
+    height: 22px; line-height: 22px;
+}
+
+.page_val{
+    width: 25px; height: 18px; line-height: 18px;
+    border: 1px solid #dadada;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.page_go_btn{
+    width:50px; height: 23px;
+    border: 1px solid #08c2e5;
+    background: #b0e8f3;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.page a{
+    display: inline-block; float:left;
+    width: 20px; height: 20px; line-height: 20px;
+    border: 1px solid #dadada;
+    margin:0px 5px;
+    text-align: center;
+    color: #666666;
+    overflow: hidden;
+    background: transparent;
+}
+
+.page a.dot{
+    border:1px solid transparent;
+    color: #999999;
+    font-size: 12px;
+}
+
+.page a.on{
+    border: 1px solid #08c2e5;
+    color: #037287;
+    background: #b0e8f3;
+}
+
+.page a.prev{
+    text-indent: -999px;
+    background: url(../Images/btn/page_prev.png) center center no-repeat;
+}
+
+.page a.prev.unable{
+    background: url(../Images/btn/page_prev_unable.png) center center no-repeat;
+}
+
+.page a.next{
+    text-indent: -999px;
+    background: url(../Images/btn/page_next.png) center center no-repeat;
+}
+
+.page a.next.unable{
+    background: url(../Images/btn/page_next_unable.png) center center no-repeat;
+}
+
+
+/*form_tool Start*/
+.form_tool{
+    height: 30px; line-height: 30px;
+    background: #e8e8e8; border: 1px solid #dadada;
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+
+.tool_group{
+    margin: 0px 5px;
+}
+
+.tool_group a{
+}
+
+.tool_group button{
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+    color: blue;
+    padding: 1px;
+}
+
+
+
+/*Common Style Start*/
+.btn{
+
+}
+
+/*分类列表*/
+.cate_group{
+
+}
+
+.cate_item{
+    float: left;
+    margin-right: 15px;
+}
+
+
+/*信息提示*/
+.msg{
+    padding: 3px 5px;
+    color: #FE4912;
+    border: 1px solid #fdb08e; border-radius: 2px;
+    background: #fff0e8;
+    float: left;
+    line-height: normal;
+}
+
+/*图片上传 UploadImg*/
+.uploadImgWin{
+    margin-bottom: 10px; margin-top: 10px;
+}
+
+.uploadImgBox{
+
+}
+
+.uploadImgGroup{
+    float: left;
+    /*border: 1px solid #dadada;*/ background: #ffffff;
+    margin-right: 15px; margin-bottom: 15px;
+    position: relative;
+}
+
+.uploadImgPic{
+    width: 160px; height: 120px;
+    text-align: center; /*display: table-cell;*/ vertical-align: middle;
+    overflow: hidden;
+    /*padding: 15px;*/
+}
+.uploadImgPic .cover{
+    display: block; width: 35px; height: 35px; position: absolute; left: 0px; top: 0px;
+    background: url(../Images/pic/album_cover.png) no-repeat;
+}
+.uploadImgPic.rect{
+    height: 160px;
+}
+
+.uploadImgPic img{
+    /*max-width: 100px; max-height: 100px;*/
+    width: 160px;
+}
+
+.uploadImgPicBox{
+
+}
+
+.uploadImgInfo{
+    line-height: 25px; height: 25px;
+    text-align: left;
+}
+
+.uploadImgInfo .input_wrap{
+    padding: 1px 3px;
+    height: 22px;
+}
+
+.uploadImgInfo .mod_input_focus{
+    border:1px solid #F5B93C;
+}
+
+.uploadImgInfo .mod_input_focus:hover{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.uploadImgInfo .pic_title{
+    width: 100%; background: #ffffff;
+    border: 0px; outline: 0px; vertical-align: top; cursor: text;
+    color: #999;
+}
+
+.uploadImgOpe{
+    line-height: 25px; height: 25px;
+    position: absolute;
+    left: 0px; top: 0px;
+    width: 100%;
+}
+
+.uploadImgOpe a{
+
+}
+
+.uploadPullDown{
+    background: url(../Images/btn/pull_down.png) #ffffff center no-repeat;
+    display: block; width: 20px; height: 20px; padding:0px!important;
+    position: absolute; top: 5px; right: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+.uploadMenu,.col_opeMenu{
+    position: absolute; top: 30px; right: 5px;
+    width: 130px; box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    background: #ffffff;
+}
+
+.uploadMenu li{
+
+}
+
+.uploadMenu li a,.col_opeMenu li a{
+    height: 18px; line-height: 18px; padding: 8px 0 8px 12px;
+    display: block;
+}
+
+.uploadMenu li a:hover,.col_opeMenu li a:hover{
+    color: #ffffff; background: #5caae6;
+}
+
+.uploadBtn{
+    display: inline-block;
+    height: 30px; width: 72px; line-height: 30px;
+    text-align: center; color: #ffffff;
+    background: url(../Images/btn/uploadBtn.png) no-repeat;
+    font-weight: bold; cursor: pointer;
+    margin-top: 10px;
+}
+
+/*Module Start*/
+.module{
+    padding: 10px;
+}
+
+.hotApp{
+
+}
+
+.hotHead{
+    height: 30px; line-height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-left:3px solid #00c0e4;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.hotBody{
+    padding: 10px;
+}
+
+.app{
+    padding-bottom: 20px;
+}
+.appHead{
+    /*height: 30px; line-height: 30px;*/
+    font-size: 18px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+.appPic{
+    width: 80px; height: 80px;
+}
+.appTitle{
+    height: 30px; line-height: 30px;
+}
+.appInfoBox{
+    margin-left: 20px;
+}
+.appIntro{
+    line-height: 20px;
+    font-size: 13px; color: #666666;
+    margin-top: 5px;
+}
+.buyBox{
+    width: 200px;
+}
+.buyBox a{
+    display: block;
+    width: 150px; height: 35px; line-height: 35px;
+    text-align: center; border-radius: 3px;
+    font-size: 14px; margin-bottom: 10px;
+}
+.buyNow{
+    background: #00c0e4; color: #fff;
+}
+.buyed{
+    background: #cccccc; color: #fff;
+    cursor: not-allowed;
+}
+.collect{
+    background:  #FFFFFF;
+    border: 1px solid #cccccc;
+    color: #333333;
+}
+.appBody{
+
+}
+
+.appGroup{
+    float: left; overflow: hidden;
+    height: 142px; width: 142px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.appBg{
+    width: 130px; height: 130px;
+    /*border:1px solid #dadada;*/
+    margin: 5px;
+    position: relative;
+    box-shadow:0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.appPicBox{
+    width: 80px; height: 80px;
+    position: absolute; top: 10px; left: 25px;
+}
+
+.appGroup.appDel .appPicBox{
+    -webkit-animation: ico-rock .2s ease-out infinite;
+    -moz-animation: ico-rock2 .2s ease-out infinite;
+}
+
+.appPicBox img{
+    width: 80px; height: 80px;
+}
+
+.appName{
+    position: absolute; bottom: 0px;
+    height: 30px; line-height: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px; border-top: 1px solid #cccccc;
+    background: #e8e8e8;
+}
+
+.appCover{
+    margin: 5px; width: 130px; height: 130px;
+    position: absolute; top: 1px; left: 1px;
+}
+.appCover a{
+    display: block; height: 65px; line-height: 65px;
+    text-align: center; color: #ffffff; font-size: 16px; font-weight: bold;
+}
+/*.hotCover a:hover{
+    background: #00C4CC;
+}*/
+
+.appCoverTop{
+    height: 50%; width: 100%;
+    background: #00C4CC;
+    border-bottom: 1px solid #dadada;
+    position: absolute; top: -65px;
+}
+.appCoverBottom{
+    height: 50%; width: 100%;
+    background: #FF9900;
+    border-top: 1px solid #dadada;
+    position: absolute; bottom: -65px;
+}
+
+.module_right{
+    background: #fafafa;
+    border-radius: 3px;
+    border: #e7e7e7 1px solid;
+    margin-left: 10px;
+    width: 210px;
+}
+
+.appInfo{
+    padding: 10px;
+}
+.appInfo .infoItem{
+    line-height: 25px;
+}
+
+.appInfo .infoItem .btn{
+    display: block;
+    height: 30px; line-height: 30px;
+    background: #00c0e4;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/*公告列表*/
+.announce{
+
+}
+.announceHead{
+    height: 30px; line-height: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding-left: 10px;
+}
+.announceBody{
+    padding: 10px;
+}
+.announceItem{
+    height: 25px; line-height: 25px;
+}
+.announceItem a{
+    color: #666666;
+}
+.announceItem a:hover{
+    color: #00C0E4;
+}
+
+/*公告展示*/
+.announceShow{
+
+}
+.announceShowHead{
+    font-size: 20px; height: 35px; line-height: 35px;
+    text-align: center;
+}
+.announceShowInfo{
+    font-size: 12px; color: #aeaeae; padding-left: 10px;
+    border-bottom: 1px solid #dadada; height: 25px; line-height: 25px;
+    text-align: center;
+}
+.announceShowInfoItem{
+    margin-right: 10px;
+}
+.announceShowContent{
+    padding: 10px; padding-top: 20px;
+    font-size: 13px; color: #666666;
+}
+
+/**
+ * imgReply
+ */
+.imgReply{
+    padding: 20px; border: 1px solid #cccccc;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    float: left;
+    margin-left: auto; margin-right: auto;
+}
+.imgReplyInner{
+    width: 300px;
+}
+.r_first{
+    margin-bottom: 10px;
+}
+.r_head{
+    height: 20px; line-height: 20px; color: #666666;
+}
+.r_body{
+    position: relative;
+}
+.r_img{
+    width: 100%; height: 150px; overflow: hidden;
+}
+.r_img img{
+    width: 100%;
+}
+.r_title{
+    position: absolute; left: 0px; bottom: 0px;
+    width: 100%; height: 30px; line-height: 30px;
+    background: rgba(0,0,0,0.8); color: #ffffff;
+}
+.r_edit_cover{
+    position: absolute; top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.30);
+    background-image: url(../Images/icon/icon_pen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.r_item{
+    width: 100%;
+    padding: 10px 0; border-top: 1px solid #dadada;
+    position: relative;
+}
+.r_item_title{
+    width: 200px; line-height: 20px; font-size: 14px;
+    float: left;
+}
+.r_item_img{
+    width: 50px; overflow: hidden;
+    float: right; border: 1px solid #cccccc; padding: 1px;
+}
+.r_item_img img{
+    width: 100%;
+}
+.menu_key{
+
+}
+.menu_key.on{
+    border: 1px solid;
+}
+
+td .avatar{
+    width: 80px; height: 80px; padding: 2px;
+    background: #f8f8f8;
+    border: 1px solid #dadada;
+    margin: 10px;
+}

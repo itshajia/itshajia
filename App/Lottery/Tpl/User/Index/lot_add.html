@@ -1,0 +1,52 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">活动管理</span>
+            <span class="con_title2 font_yahei">新添加</span>
+
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Index&a=lottery&view=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">活动名称：</th>
+                        <td width="">
+                            <input name="title" class="txt" id="title" value="{$obj.title}" style="width:250px;" datatype="*"  nullmsg="请填活动名称！" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">开启报名：</th>
+                        <td width="">
+                            <input type="checkbox" name="is_open" <?php if( $obj['is_open']==1){ ?> checked="checked" <?php } ?> />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="lot_id" id="lot_id" value="{$obj['lot_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+
+<include file="Public:iframe_footer" />

@@ -1,0 +1,59 @@
+<include file="../../App/Wedding/Tpl/Home/Skin_1/Public/header.html" />
+
+<!-- 内容主题 Start -->
+<div class="container">
+
+    <!-- 婚庆大屏幕 Start -->
+    <div id="screen" class="screen">
+
+        <div class="screenInner">
+
+            <!-- 祝福列表 Start -->
+            <div id="blessList" class="blessList font_yahei">
+                <ul id="blessGroup" class="blessGroup clearfix">
+                    <!--<li class="blessItem clearfix">
+                        <div class="blessItemImgBox">
+                            <img src="http://gaoyongceshi.sk45.sdwlsym.com/apply/wedding/com/msg/tx.jpg" />
+                        </div>
+                        <div class="blessItemInfo">
+                            <div class="blessItemTitle">周星：</div>
+                            <div class="blessItemMsg">好人一生相爱</div>
+                            <div class="blessItemTime">18:18:50</div>
+                        </div>
+                    </li>-->
+
+                </ul>
+            </div>
+            <!-- 祝福列表 End -->
+
+        </div>
+
+
+    </div>
+    <!-- 婚庆大屏幕 End -->
+
+</div>
+<!-- 内容主题 End -->
+
+<script type="text/x-jquery-tmpl" id="blessTmpl">
+    <li class="blessItem clearfix" style="opacity:0;">
+        <div class="blessItemImgBox">
+            <img src="{{= src}}" />
+        </div>
+        <div class="blessItemInfo">
+            <div class="blessItemTitle">{{= guest}}：</div>
+            <div class="blessItemMsg">{{= msg}}</div>
+            <div class="blessItemTime">{{= time}}</div>
+        </div>
+    </li>
+</script>
+
+
+<script>
+    seajs.use('__APP_H_JS__/Wedding', function( App ) {
+        // 获取“祝福信息”
+        App.getBless();
+    });
+</script>
+</body>
+</html>

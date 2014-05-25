@@ -1,0 +1,89 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">用户管理</span>
+            <span class="con_title2 font_yahei">新添加</span>
+
+            <span class="con_tool">
+                <volist name="tools" id="tool">
+                    <a href="{$tool.url}" <?php if($tool['tag']==$_GET['view']){ ?> class="active" <?php } ?>>{$tool.name}</a>
+                </volist>
+
+            </span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Admin&a=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">用户组：</th>
+                        <td width="">
+                            <select name="group_id" id="group_id" style="width:150px;" datatype="*" nullmsg="请选择用户组！">
+                                <option value="">--请选择用户组--</option>
+                                <volist name="groupList" id="item">
+                                    <option value="{$item.group_id}" <?php if($obj['group_id']==$item['group_id']){ ?> selected="selected"<?php } ?>>{$item.group_name}</option>
+                                </volist>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">用户名称：</th>
+                        <td width="">
+                            <input name="username" class="txt" id="username" value="{$obj.username}" datatype="*" nullmsg="请填写用户名称！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <?php if(!$obj){ ?>
+                    <tr>
+                        <th scope="row" width="130px;">用户密码：</th>
+                        <td width="">
+                            <input type="password" name="password" class="txt" id="password" value="{$obj.password}" datatype="*" nullmsg="请填写用户密码！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <?php } ?>
+                    <tr>
+                        <th scope="row" width="130px;">真实姓名：</th>
+                        <td>
+                            <input name="truename" class="txt" id="truename" value="{$obj.truename}" datatype="*" nullmsg="请填写真实姓名！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">公司名称：</th>
+                        <td>
+                            <input name="company" class="txt" id="company" value="{$obj.company}" datatype="*" nullmsg="请填写公司名称！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">联系电话：</th>
+                        <td>
+                            <input name="mobile" class="txt" id="mobile" value="{$obj.mobile}" datatype="*" nullmsg="请填写联系电话！" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="uid" id="uid" value="{$obj['uid']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+
+<include file="Public:iframe_footer" />

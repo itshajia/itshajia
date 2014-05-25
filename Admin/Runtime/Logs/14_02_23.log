@@ -1,0 +1,99 @@
+[ 2014-02-23T00:15:16+08:00 ] 117.91.93.210 /Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.006363s ]
+NOTIC: [8] Undefined index: _URL_ /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Action/CommonAction.class.php 第 27 行.
+
+[ 2014-02-23T00:15:18+08:00 ] 117.91.93.210 /Admin/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Behavior/ResourceCheckBehavior.class.php 第 8 行.
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 54 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `resource_id` FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') )  [ RunTime:0.141494s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `mod` = 'Index' ) AND ( `act` = 'login' ) LIMIT 1   [ RunTime:0.000472s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.420559s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.034482s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_menu` WHERE ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/ShortcutsModel.class.php 第 13 行.
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = null )  [ RunTime:0.046425s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '1' ) AND ( `status` = 1 )  [ RunTime:0.032719s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '9' ) AND ( `status` = 1 )  [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '2' ) AND ( `status` = 1 )  [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '16' ) AND ( `status` = 1 )  [ RunTime:0.000454s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '17' ) AND ( `status` = 1 )  [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '3' ) AND ( `status` = 1 )  [ RunTime:0.001208s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '18' ) AND ( `status` = 1 )  [ RunTime:0.002011s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '4' ) AND ( `status` = 1 )  [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '12' ) AND ( `status` = 1 )  [ RunTime:0.014638s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 21 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: _adminUser /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Lib/Model/SubmenuResourceModel.class.php 第 26 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') ) AND ( `submenu_id` = '15' ) AND ( `status` = 1 )  [ RunTime:0.000380s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '5' ) AND ( `status` = 1 )  [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+NOTIC: [8] Undefined index: _type /home/cwaiygfo/domains/uioweb.com/public_html/ThinkPHP/Lib/Core/Model.class.php 第 583 行.
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = '6' ) AND ( `status` = 1 )  [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error /home/cwaiygfo/domains/uioweb.com/public_html/App/Admin/Runtime/Cache/6dabc0eb587b79b4e9634df8692ca976.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.564410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.564509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000741s ]
+

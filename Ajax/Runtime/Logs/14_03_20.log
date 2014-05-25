@@ -1,0 +1,88 @@
+[ 2014-03-20T22:01:34+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) [ RunTime:0.263015s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz') [ RunTime:0.096006s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz') [ RunTime:0.066004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz') [ RunTime:0.040002s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz') [ RunTime:0.068004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz') [ RunTime:0.077004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz') [ RunTime:0.042003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz') [ RunTime:0.046002s ]
+
+[ 2014-03-20T22:02:26+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) [ RunTime:0.147009s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz') [ RunTime:0.067003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz') [ RunTime:0.063004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz') [ RunTime:0.077004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz') [ RunTime:0.041003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz') [ RunTime:0.047003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz') [ RunTime:0.065003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz') [ RunTime:0.080005s ]
+
+[ 2014-03-20T22:03:46+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) [ RunTime:0.135008s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz') [ RunTime:0.078004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz') [ RunTime:0.078005s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz') [ RunTime:0.040002s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz') [ RunTime:0.068004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz') [ RunTime:0.066004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz') [ RunTime:0.040002s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz') [ RunTime:0.071004s ]
+
+[ 2014-03-20T22:06:30+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.013001s ]
+NOTIC: [8] Undefined index: id G:\Web\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 94 行.
+SQL: INSERT INTO `uio_column` (`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES (4,'wz',1395324390,0,0) [ RunTime:0.087005s ]
+
+[ 2014-03-20T22:09:58+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: id G:\Web\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 94 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目1','http://www.itshajia.com',1,4,'wz',1395324598,0,0) [ RunTime:0.132008s ]
+
+[ 2014-03-20T22:10:55+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnReset
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.008001s ]
+SQL: DELETE FROM `uio_column` WHERE ( `uid` = 4 ) AND ( `app_name` = 'wz' ) [ RunTime:0.188010s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'首页','','',1,1,1,0,'?index.php','','wz',1395324654) [ RunTime:0.066004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'公司简介','','',1,1,0,1,'?index.php&m=Index&a=about','','wz',1395324654) [ RunTime:0.062004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'产品中心','','',1,1,0,2,'?index.php&m=Index&a=pro','','wz',1395324654) [ RunTime:0.065004s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'新闻中心','','',1,1,0,3,'?index.php&m=Index&a=news','','wz',1395324654) [ RunTime:0.066003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'联系我们','','',1,1,0,4,'?index.php&m=Index&a=contact','','wz',1395324654) [ RunTime:0.042003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键拨号','','',1,1,0,5,'tel:','','wz',1395324655) [ RunTime:0.061003s ]
+SQL: INSERT INTO `uio_column` (`uid`,`column_name`,`css_icon`,`image`,`is_sys`,`is_show`,`is_home`,`sort`,`linkurl`,`description`,`app_name`,`addtime`) VALUES (4,'一键导航','','',1,1,0,6,'','','wz',1395324655) [ RunTime:0.038003s ]
+
+[ 2014-03-20T22:12:47+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.011001s ]
+NOTIC: [8] Undefined index: id G:\Web\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 96 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目1','http://www.itshajia.com',1,4,'wz',1395324767,0,0) [ RunTime:0.096006s ]
+
+[ 2014-03-20T23:22:23+08:00 ] 127.0.0.1 /ajax.php?m=Weizhan&a=columnAdd
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `uio_column` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: id G:\Web\itshajia\Ajax\Lib\Action\WeizhanAction.class.php 第 96 行.
+SQL: INSERT INTO `uio_column` (`column_name`,`linkurl`,`sort`,`uid`,`app_name`,`addtime`,`is_sys`,`is_home`) VALUES ('自定义栏目2','http://www.itshajia.com',2,4,'wz',1395328943,0,0) [ RunTime:0.195012s ]
+

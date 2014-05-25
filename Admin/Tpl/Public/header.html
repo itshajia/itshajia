@@ -1,0 +1,35 @@
+<!--后台管理页头 start-->
+<div class="header">
+    <div class="logo"></div>
+    <div class="nav_panel">
+        <div class="nav_cover"></div>
+        <div class="nav" id="nav">
+            <ul>
+                <volist name="menuList" id="menu">
+                    <li>
+                        <a href="javascript:;" rel="{$menu.menu_ename}" <?php if( $i==1 ){ ?>class="active"<?php } ?> >{$menu.menu_name}</a>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+
+        <!-- 登录用户信息 -->
+        <div class="user_box">
+            <div class="avatar">
+                <img class="pic_small" uid="" src="{$Think.APP_NAME}/Resource/Images/user/avatar.png" />
+            </div>
+            <div class="welcome">
+                你好，{$adminUser.group_name}，<b>{$adminUser.username}</b>
+            </div>
+            <div class="link_group">
+                <a href="javascript:;" onclick="window.history.back()">返回上页</a>
+                <a href="javascript:;" id="fresh">刷新</a>
+                <a href="/" target="_blank">网站首页</a>
+                <a href="<?php echo appUrl('m=Index&a=logout'); ?>">安全退出</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--后台管理页头 end-->

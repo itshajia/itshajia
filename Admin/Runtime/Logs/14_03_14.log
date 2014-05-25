@@ -1,0 +1,52 @@
+[ 2014-03-14T08:51:48+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006365s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.001776s ]
+NOTIC: [8] Undefined variable: var E:\Working\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given E:\Working\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given E:\Working\itshajia\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2014-03-14T08:51:48+08:00 ] 127.0.0.1 /admin.php?&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+INFO: LoginCheck Behavior ::run [ RunTime:0.000992s ]
+NOTIC: [8] Undefined index: _adminUser E:\Working\itshajia\Admin\Lib\Behavior\ResourceCheckBehavior.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `uio_submenu_resource` [ RunTime:0.047731s ]
+SQL: SHOW COLUMNS FROM `uio_user_group` [ RunTime:0.032057s ]
+NOTIC: [8] Undefined index: _adminUser E:\Working\itshajia\Admin\Lib\Model\SubmenuResourceModel.class.php 第 47 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT `resource_id` FROM `uio_submenu_resource` WHERE ( `resource_id` IN ('') )  [ RunTime:0.000301s ]
+SQL: SELECT * FROM `uio_submenu_resource` WHERE ( `mod` = 'Index' ) AND ( `act` = 'login' ) LIMIT 1   [ RunTime:0.000359s ]
+INFO: ResourceCheck Behavior ::run [ RunTime:0.324663s ]
+INFO: AuthCheck Behavior ::run [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `uio_menu` [ RunTime:0.040885s ]
+NOTIC: [8] Undefined index: _adminUser E:\Working\itshajia\Admin\Lib\Action\CommonAction.class.php 第 63 行.
+SQL: SELECT * FROM `uio_user_group` WHERE ( `group_id` = null ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () )  [ RunTime:0.009357s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT uio_submenu_resource.*,uio_submenu.menu_id FROM `uio_submenu_resource` JOIN uio_submenu USING (submenu_id) WHERE ( `resource_id` IN () ) 
+SQL: SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) AND ( `status` = 1 ) ORDER BY `listorder`' at line 1
+ [ SQL语句 ] : SELECT * FROM `uio_menu` WHERE ( `menu_id` IN () ) AND ( `status` = 1 ) ORDER BY `listorder` 
+NOTIC: [8] Undefined index: _adminUser E:\Working\itshajia\Admin\Lib\Action\CommonAction.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `uio_submenu` [ RunTime:0.032981s ]
+SQL: SHOW COLUMNS FROM `uio_shortcuts` [ RunTime:0.019849s ]
+NOTIC: [8] Undefined index: _adminUser E:\Working\itshajia\Admin\Lib\Model\ShortcutsModel.class.php 第 8 行.
+SQL: SELECT * FROM `uio_shortcuts` JOIN uio_submenu_resource USING (resource_id) WHERE ( `uid` = null )  [ RunTime:0.000318s ]
+SQL: SELECT * FROM `uio_submenu` WHERE ( `menu_id` = null ) AND ( `status` = 1 ) ORDER BY `listorder`  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error E:\Working\itshajia\Admin\Runtime\Cache\f5f774e8b2bfb96769b50c7abe48581a.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005681s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001204s ]
+

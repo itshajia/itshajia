@@ -1,0 +1,21 @@
+
+    </div>
+</div>
+<script>
+    seajs.use('__JS__/u');
+</script>
+<script>
+    seajs.use('__JS__/iframe', function( Iframe ) {
+
+        window.page = Iframe.pageGo;
+        window.localGo = Iframe.localGo;
+
+        Iframe.validform();
+        Iframe.multiSelect();
+        Iframe.resetIframe();
+
+
+    });
+</script>
+</body>
+</html>

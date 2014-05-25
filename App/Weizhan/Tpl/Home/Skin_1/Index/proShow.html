@@ -1,0 +1,27 @@
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/header.html" />
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/headTop.html" />
+
+<!-- 内容主体 Start -->
+<div class="container font_yahei">
+    <div class="pro">
+        <div class="proShowHead">
+            <span class="proShowTitle font_b">{$obj.title}</span>
+        </div>
+        <div class="proShowInfo">
+            <span>发布时间：<?php echo format_time($obj['addtime']); ?></span>
+        </div>
+        <div class="proShowImg">
+            <?php foreach( $obj['picarr'] as $k=>$v ){?>
+                <img src="<?php echo $v ?>" />
+            <?php } ?>
+        </div>
+        <div class="proShowBody">
+            {$obj.description}
+        </div>
+    </div>
+
+</div>
+
+<!-- 内容主体 End -->
+
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/footer.html" />

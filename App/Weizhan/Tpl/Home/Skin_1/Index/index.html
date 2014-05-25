@@ -1,0 +1,73 @@
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/header.html" />
+
+<!-- 内容主题 Start -->
+<div class="container">
+
+    <!-- 头部幻灯片 Start -->
+    <div class="swipe">
+        <div id="" style="overflow: hidden;">
+            <ul id="slider" class="slider">
+                <?php if( $banner ){ ?>
+                <?php   foreach($banner as $k=>$v){  ?>
+                <li><a href="javascript:void(0)"><img src="<?php echo $v?>" /></a></li>
+                <?php } ?>
+                <?php }else{ ?>
+
+                <li style="display:block;"><img src="<?php echo C('WEB_URL'); ?>/App/Weizhan/Images/1.jpg" /></li>
+                <li><img src="<?php echo C('WEB_URL'); ?>/App/Weizhan/Images/2.jpg" /></li>
+                <?php } ?>
+            </ul>
+        </div>
+
+        <div id="nav">
+            <div id="pagenavi">
+                <?php if($banner){ ?>
+                <?php foreach($banner as $k=>$v){ ?>
+                <a href="javascript:void(0);" <?php if($k==0) echo "class=\"active\""?>></a>
+                <?php } ?>
+                <?php }else{ ?>
+                <a class="active" ></a>
+                <a class=""></a>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+    <!-- 头部幻灯片 End -->
+
+    <script>
+        seajs.use('__APP_H_JS__/Weizhan', function( App ) {
+            // 顶部幻灯片
+            App.touchScroll();
+        });
+    </script>
+
+    <!-- 首页栏目 Start -->
+    <div class="column clearfix">
+
+        <volist name="list" id="item">
+            <a href="{$item.linkurl}">
+                <div class="column_group font_yahei">
+                    <div class="column_group_inner">
+                        <div class="column_icon">
+                            <span class="icon_font {$item.css_icon}"></span>
+                        </div>
+                        <div class="column_title">
+                            <span>{$item.column_name}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </volist>
+
+    </div>
+    <!-- 首页栏目 End -->
+
+
+</div>
+
+
+
+
+<!-- 内容主题 End -->
+
+<include file="../../App/Weizhan/Tpl/Home/Skin_1/Public/footer.html" />

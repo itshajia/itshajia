@@ -1,0 +1,170 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">产品中心</span>
+            <span class="con_title2 font_yahei">新添加</span>
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Index&a=pro&view=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">产品标题：</th>
+                        <td width="">
+                            <input name="title" class="txt" id="title" value="{$obj.title}" style="width:350px;" datatype="*"  nullmsg="请填写产品标题！" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">产品图组：</th>
+                        <td>
+                            <!-- 图片上传 Start -->
+                            <div><span id="imageBtn" class="uploadBtn">上传</span></div>
+                            <div class="uploadImgWin">
+                                <div class="uploadImgBox clearfix" id="uploadImgBox">
+                                    <?php if($obj['pic']){ ?>
+                                        <?php $pics = str2Arr( $obj['pic']); ?>
+
+                                        <?php foreach( $pics as $v ){ ?>
+                                        <div class="uploadImgGroup">
+                                            <div class="uploadImgPic">
+                                                <div class="uploadImgPicBox">
+                                                    <img src="{$v}" />
+                                                </div>
+
+                                            </div>
+                                            <div class="uploadImgOpe">
+                                                <a href="javascript:;" class="uploadPullDown"></a>
+                                                <div class="uploadMenu hidden">
+                                                    <ul>
+                                                        <li><a href="javascript:;" class="uploadDel" data-src="{$v}">删除</a></li>
+                                                        <li><a href="javascript:;" class="uploadCover" data-src="{$v}">设为封面</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" name="pic[]" value="{$v}" />
+                                        </div>
+                                        <?php } ?>
+
+                                    <?php } ?>
+                                </div>
+                            </div>
+                            <script id="myeditorImg"></script>
+                            <script type="text/x-jquery-tmpl" id="uploadImgTmpl">
+                                <div class="uploadImgGroup">
+                                    <div class="uploadImgPic">
+                                        <div class="uploadImgPicBox">
+                                            <img src="{{= src}}" />
+                                        </div>
+                                    </div>
+                                    <div class="uploadImgOpe">
+                                        <a href="javascript:;" class="uploadPullDown"></a>
+                                        <div class="uploadMenu hidden">
+                                            <ul>
+                                                <li><a href="javascript:;" class="uploadDel" data-src="{$v}">删除</a></li>
+                                                <li><a href="javascript:;" class="uploadCover" data-src="{$v}">设为封面</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="pic[]" value="{{= src}}" />
+                                </div>
+                            </script>
+                            <!-- 图片上传 End -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">产品内容：</th>
+                        <td class="textarea">
+                            <textarea name="description" id="myEditor" datatype="*" nullmsg="请填写产品内容！">{$obj.description}</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">产品分类：</th>
+                        <td>
+                            <select name="cate_id" style="width:160px;" datatype="*" nullmsg="请选择分类！">
+                                <option value="">--请选择父级分类--</option>
+                                <volist name="levelList" id="item">
+                                    <option <?php if($obj['cate_id']==$item['cate_id']){ ?> selected="selected" <?php } ?> value="{$item.cate_id}"><?php echo UnlimitTagEcho($item['level']); ?>{$item.cate_name}</option>
+                                </volist>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">发表时间：</th>
+                        <td>
+                            <input name="addtime" class="txt" id="addtime" value="<?php if($obj && $obj['addtime']){ ?><?php echo format_time($obj['addtime']); ?><?php } ?>" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">排序：</th>
+                        <td width="">
+                            <input name="listorder" class="txt" id="listorder" value="{$obj.listorder}" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="pro_id" id="pro_id" value="{$obj['pro_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<!--UEditor Start-->
+<script type="text/javascript" src="__JS__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__JS__/ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script style="text/javascript">
+    UE.getEditor("myEditor", {
+        toolbars:[['FullScreen','Source', 'Undo', 'Redo','Bold','forecolor','test','link','unlink','fontfamily','fontsize','justifyleft', 'justifycenter', 'justifyright', 'justifyjustify','insertcode','map','gmap','insertimage','insertvideo',,'preview','searchreplace','cleardoc','date','time','horizontal']],
+        wordCount:false,
+        elementPathEnabled:false,
+        initialFrameWidth: 800,
+        initialFrameHeight: 300,
+        savePath: ['upload']
+    });
+</script>
+<!--UEditor End-->
+
+<script>
+    seajs.use('__JS__/imageUpload', function( Image ){
+
+        Image.upload({
+            scriptId: 'myeditorImg',
+            spanId: 'imageBtn',
+            savePath: ['Weizhan'],
+            id: "<?php echo $obj['pro_id']; ?>",
+            idName: 'pro_id',
+            tName: 'Pro',
+            fName: 'pic',
+            isMulti: true
+        });
+    });
+</script>
+
+<script>
+    seajs.use('__JS__/iframe', function( Iframe ) {
+
+        Iframe.setDate('addtime');
+
+    });
+</script>
+
+<include file="Public:iframe_footer" />

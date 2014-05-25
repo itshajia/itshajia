@@ -1,0 +1,58 @@
+[ 2014-03-16T07:51:02+08:00 ] 127.0.0.1 /ajax.php?m=Common&a=fileDel
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008000s ]
+SQL: DELETE FROM `uio_album_pic` WHERE ( `uid` = 4 ) AND ( `pic_id` = 18 ) [ RunTime:0.106006s ]
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 60 行.
+NOTIC: [8] Undefined variable: obj G:\Web\itshajia\Ajax\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2014-03-16T08:17:22+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007001s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.071004s ]
+
+[ 2014-03-16T08:17:48+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007000s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.159009s ]
+
+[ 2014-03-16T08:19:31+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007000s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.148009s ]
+
+[ 2014-03-16T08:20:51+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.011001s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.181010s ]
+
+[ 2014-03-16T08:22:43+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.007000s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.105006s ]
+
+[ 2014-03-16T08:25:35+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008001s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.062003s ]
+
+[ 2014-03-16T08:25:40+08:00 ] 127.0.0.1 /ajax.php?m=Album&a=setCover
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `uio_album_pic` [ RunTime:0.008001s ]
+SQL: UPDATE `uio_album_pic` SET `is_cover`=1 WHERE ( `pic_id` = 13 ) AND ( `uid` = 4 ) [ RunTime:0.108006s ]
+

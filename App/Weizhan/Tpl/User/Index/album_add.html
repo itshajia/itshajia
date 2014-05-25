@@ -1,0 +1,76 @@
+<include file="Public:iframe_header" />
+
+<!--内容主体 Start-->
+<div class="container">
+    <div class="panel">
+
+        <div class="con_header">
+            <span class="con_title font_yahei font_b">相册管理</span>
+            <span class="con_title2 font_yahei">新添加</span>
+
+        </div>
+
+        <div class="con_body">
+
+            <form action="<?php echo appUrl('m=Index&a=album&view=add'); ?>" method="post" id="frm" name="frm">
+                <input type="hidden" name="submit" value="1" />
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                    <tr>
+                        <th scope="row" width="130px;">相册名称：</th>
+                        <td width="">
+                            <input name="title" class="txt" id="title" value="{$obj.title}" style="width:350px;" datatype="*"  nullmsg="请填写产品标题！" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">相册分类：</th>
+                        <td>
+                            <select name="cate_id" style="width:160px;" datatype="*" nullmsg="请选择分类！">
+                                <option value="">--请选择父级分类--</option>
+                                <volist name="levelList" id="item">
+                                    <option <?php if($obj['cate_id']==$item['cate_id']){ ?> selected="selected" <?php } ?> value="{$item.cate_id}"><?php echo UnlimitTagEcho($item['level']); ?>{$item.cate_name}</option>
+                                </volist>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">发表时间：</th>
+                        <td>
+                            <input name="addtime" class="txt" id="addtime" value="<?php if($obj && $obj['addtime']){ ?><?php echo format_time($obj['addtime']); ?><?php } ?>" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" width="130px;">排序：</th>
+                        <td width="">
+                            <input name="listorder" class="txt" id="listorder" value="{$obj.listorder}" style="width:150px;" />
+                        </td>
+                    </tr>
+                    <tr class="no_line">
+                        <th></th>
+                        <td>
+                            <?php if($obj){ ?>
+                            <input type="hidden" name="album_id" id="album_id" value="{$obj['album_id']}" />
+                            <?php } ?>
+                            <button type="submit" class="uio_btn">提交</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+<!--内容主体 End-->
+
+<script>
+    seajs.use('__JS__/iframe', function( Iframe ) {
+
+        Iframe.setDate('addtime');
+
+    });
+</script>
+
+<include file="Public:iframe_footer" />
